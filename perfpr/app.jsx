@@ -1,6 +1,9 @@
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
 import TrackerReact from 'meteor/ultimatejs:tracker-react'
+import PerfectPresenceForm from './PerfectPresenceForm'
+import IndividualOutput from './IndividualOutput'
+
 
 PerfectPresence = new Mongo.Collection("perfect-presence");
 
@@ -8,20 +11,6 @@ export default class App extends TrackerReact(Component) {
 
     perfectPresence(){
         return PerfectPresence.find().fetch();
-    }
-
-    addPerfectPresence(event){
-        event.preventDefault();
-        var text = this.refs.perfectPresence.value.trim();
-
-        PerfectPresence.insert({
-            text: text,
-            complete: false,
-            createdAt: new Date()
-        });
-
-        this.refs.perfectPresence.value = "";
-
     }
 
     render(){
@@ -35,17 +24,11 @@ export default class App extends TrackerReact(Component) {
         return (
             <div>
                 <h1>Perfect Presence</h1>
-                <form className="perfect-presence" onSubmit={this.addPerfectPresence.bind(this)}>
-                    <input type="text" ref="perfectPresence" placeholder="Test" />
-                </form>
+                <PerfectPresenceForm/>
 
-                <div>
-                    {perfectPresenceTable.map((perf)=>{
-                       return (
-                           perf.text 
-                       )
-                    })}
-                </div>
+                <ul>
+                    <IndividualOutput perfectPresence={perfectPresenceTable[0]}/>
+                </ul>
             </div>
         )
     }
