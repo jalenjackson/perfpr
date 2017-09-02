@@ -13,10 +13,13 @@ export default class Nav extends Component {
                         <nav className="circle">
                             <ul>
                                 <img src="/images/logo.png"/>
-                                <li><a href="/" className="home-nav">Home</a></li>
-                                <li><NavLink  to="/services" activeClassName="active-nav">Services</NavLink></li>
-                                <li><NavLink  to="/blog" activeClassName="active-nav">Blog</NavLink></li>
-                                <li><NavLink  to="/getstarted" activeClassName="active-nav">Get Started</NavLink></li>
+
+                                <div className="container red topBotomBordersOut">
+                                    <a href="/">Home</a>
+                                    <NavLink to="/services">Services</NavLink>
+                                    <NavLink to="/blog">Blog</NavLink>
+                                    <NavLink to="/getstarted">Get Started</NavLink>
+                                </div>
                             </ul>
                         </nav>
                     </section>

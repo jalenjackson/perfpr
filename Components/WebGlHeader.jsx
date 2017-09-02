@@ -11,12 +11,7 @@ export default class WebGlHeader extends Component {
                             Get all the resources for your idea all in one place!
                         </p>
 
-                        <figure className="slide-up" style={{animationDelay: "0.6s"}}>
-                            <div>
-                                <span  >Schedule My Consultation Today</span>
-                                <span style={{color:"black"}}>Let's Get Started</span>
-                            </div>
-                        </figure>
+                        <button className="button-consultation slide-up" style={{animationDelay: "0.6s"}}>Schedule My Consultation Today</button>
                     </div>
                 </div>
 
