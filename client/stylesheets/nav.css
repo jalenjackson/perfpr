@@ -1,9 +1,5 @@
 /* NAVIGATION */
 
-body {
-    margin:0;
-    padding:0;
-}
 nav {
     width: 100%;
     background: rgb(35,31,32);
@@ -103,5 +99,25 @@ nav.circle ul li a:hover:after {
         right: 0;
         margin: auto;
         border-radius: 0;
+    }
+}
+
+.fa-bars {
+    position: absolute;
+    right:40px;
+    top:40px;
+    font-size:35px !important;
+    color:white;
+    display: none !important;
+    cursor: pointer;
+}
+/* media queries */
+
+@media (max-width: 900px) {
+    nav ul li {
+        display: none;
+    }
+    .fa-bars {
+        display: block !important;
     }
 }
