@@ -12,7 +12,7 @@ export default class Nav extends Component {
                     <section>
                         <nav className="circle">
                             <ul>
-                                <img src="https://perfpr.com/wp-content/uploads/Perfect-Presence-Logo-Glow.png"/>
+                                <img src="/images/logo.png"/>
                                 <li><a href="/" className="home-nav">Home</a></li>
                                 <li><NavLink  to="/services" activeClassName="active-nav">Services</NavLink></li>
                                 <li><NavLink  to="/blog" activeClassName="active-nav">Blog</NavLink></li>

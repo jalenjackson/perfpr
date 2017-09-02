@@ -1,0 +1,178 @@
+/* STRUCTURE */
+
+#pagewrap {
+    padding: 5px;
+    width: 960px;
+    margin: 20px auto;
+}
+header {
+    height: 100px;
+    padding: 0 15px;
+    text-align: center;
+    background:none;
+    border:none;
+    font-family:Lato, sans-serif;
+    font-weight: 100;
+    font-size:30px;
+}
+#content {
+    width: 290px;
+    float: left;
+    padding: 5px 15px;
+}
+
+#middle {
+    width: 294px; /* Account for margins + border values */
+    float: left;
+    padding: 5px 15px;
+    margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+    width: 270px;
+    padding: 5px 15px;
+    float: left;
+}
+footer {
+    clear: both;
+    padding: 0 15px;
+}
+
+section {
+    font-family: Lato, sans-serif;
+    font-weight: 100;
+}
+
+section img {
+    width:80px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+section p {
+    margin-top:-12px;
+}
+
+h5 {
+    font-family: Questrial, sans-serif;
+    font-size: 23px;
+    font-weight: 100;
+    text-align: center;
+    font-weight: bold;
+    margin-top:0px;
+    letter-spacing: 2px;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+
+    #pagewrap {
+        width: 94%;
+    }
+    #content {
+        width: 41%;
+        padding: 1% 4%;
+    }
+    #middle {
+        width: 41%;
+        padding: 1% 4%;
+        margin: 0px 0px 5px 5px;
+        float: right;
+    }
+
+    #sidebar {
+        clear: both;
+        padding: 1% 4%;
+        width: auto;
+        float: none;
+    }
+
+    header, footer {
+        padding: 1% 4%;
+    }
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+    #content {
+        width: auto;
+        float: none;
+    }
+
+    #middle {
+        width: auto;
+        float: none;
+        margin-left: 0px;
+    }
+
+    #sidebar {
+        width: auto;
+        float: none;
+    }
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+    header {
+        height: auto;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    #sidebar {
+        display: none;
+    }
+
+}
+
+
+
+header, #content, #middle, #sidebar {
+    margin-bottom: 5px;
+}
+
+.bottom-message {
+    width: 100%;
+    height: 200px;
+    background:linear-gradient(to left, rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(https://tctechcrunch2011.files.wordpress.com/2014/11/screen-shot-2014-11-11-at-12-49-02-pm.png) center center no-repeat;
+    background-size: cover;
+
+    margin-top:280px;
+    border-bottom: 5px solid rgb(120,185,84);
+
+}
+
+.bottom-message p {
+    text-align: center;
+    color:white;
+    font-size:50px;
+    transform:translateY(80px);
+    font-family:Lato,sans-serif;
+    font-weight:100;
+}
+
+.footer {
+    width: 100%;
+    background:rgb(20,20,20);
+    height:400px;
+    position: relative;
+
+}
+
+.bottom-footer {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width:100%;
+    height:60px;
+    background:rgb(10,10,10);
+    border-top: 1px solid rgb(120,185,84);
+    z-index:6;
+}

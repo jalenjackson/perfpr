@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
 .webgl-header {
     width: 100%;
     height: 400px;
@@ -6,4 +8,131 @@
 #myCanvas {
     background:linear-gradient(0deg ,black, black);
     margin-top:100px;
+}
+
+.webgl-overlay {
+    position:absolute;
+    top:110px;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+    z-index: 5;
+}
+
+
+
+.wrap h1 {
+    margin-left: 100px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 8em;
+    white-space: nowrap;
+    font-size: 7vw;
+    z-index: 1000;
+    font-family: 'Bangers', cursive;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+    -moz-transition-property: font-size;
+    -o-transition-property: font-size;
+    -webkit-transition-property: font-size;
+    transition-property: font-size;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    opacity:0;
+
+}
+
+.wrap p {
+
+    margin-left: 100px;
+    font-weight: normal;
+    color: #fff;
+    font-size: 2em;
+    white-space: nowrap;
+    font-size: 17px;
+    z-index: 1000;
+    margin-top: -40px;
+    width:200px !important;
+    font-family: 'Questrial', cursive;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+    opacity:0;
+
+}
+
+figure {
+    width: 350px;
+    height: 60px;
+    cursor: pointer;
+    perspective: 500px;
+    -webkit-perspective: 500px;
+    margin-left: 100px;
+    opacity: 0;
+    margin-top:20px;
+    font-family:Questrial,sans-serif !important;
+}
+
+figure div {
+    height: 100%;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transition: 0.25s;
+    -webkit-transition: 0.25s;
+}
+
+figure:hover div {
+    transform: rotateX(-90deg);
+}
+
+span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    border: 5px solid #fff;
+    font-family: 'Questrial',sans-serif;
+    line-height: 50px;
+    font-size: 12pt;
+    text-align: center;
+    font-weight: 100;
+}
+
+span:nth-child(1) {
+    color: #fff;
+    transform: translate3d(0, 0, 30px);
+    -webkit-transform: translate3d(0, 0, 30px);
+}
+
+span:nth-child(2) {
+    color: #80328f;
+    background: #fff;
+    transform: rotateX(90deg) translate3d(0, 0, 30px);
+    -webkit-transform: rotateX(90deg) translate3d(0, 0, 30px);
+}
+
+@media screen and (max-width: 50em) {
+    h1 {
+        font-size: 20vw;
+    }
+}
+
+
+.slide-up {
+    animation: opac 2s cubic-bezier(0.165,0.84,0.44,1) forwards;
+}
+
+
+@keyframes opac {
+    0%{
+        opacity:0;
+        transform: translate3D(0,30px,0);
+
+    }
+    100%{
+        opacity:1;
+        transform: translate3D(0,0,0);
+
+    }
 }

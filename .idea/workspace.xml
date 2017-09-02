@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49ad2a8c-62bd-4979-a631-6e24b8aca273" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Components/Nav.jsx" afterPath="$PROJECT_DIR$/Components/Nav.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Components/WebGlHeader.jsx" afterPath="$PROJECT_DIR$/Components/WebGlHeader.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/App.jsx" afterPath="$PROJECT_DIR$/client/App.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/modal.js" afterPath="$PROJECT_DIR$/client/modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/main.css" afterPath="$PROJECT_DIR$/client/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/webglheader.css" afterPath="$PROJECT_DIR$/client/stylesheets/webglheader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,55 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/App.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/Index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="modal.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="64" column="48" lean-forward="false" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/nav.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="366">
+              <caret line="42" column="59" lean-forward="true" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -75,30 +36,18 @@
       <file leaf-file-name="Nav.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Components/Nav.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Services.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Components/Services.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/stylesheets/main.css">
+      <file leaf-file-name="webglheader.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/stylesheets/webglheader.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="245">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,11 +56,9 @@
       <file leaf-file-name="Blog.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Components/Blog.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
+            <state relative-caret-position="22">
               <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,11 +66,61 @@
       <file leaf-file-name="GetStarted.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Components/GetStarted.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="22">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebGlHeader.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Components/WebGlHeader.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="133" lean-forward="false" selection-start-line="9" selection-start-column="133" selection-end-line="9" selection-end-column="133" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/App.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/stylesheets/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Components/HomePage.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/stylesheets/HomePage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3850">
+              <caret line="175" column="26" lean-forward="false" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,6 +130,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>getCont</find>
+      <find>sprite</find>
+      <find>renderer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,22 +147,24 @@
         <option value="$PROJECT_DIR$/client/javascripts/main.js" />
         <option value="$PROJECT_DIR$/client/main.js" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
-        <option value="$PROJECT_DIR$/client/stylesheets/nav.css" />
         <option value="$PROJECT_DIR$/client/routes.jsx" />
         <option value="$PROJECT_DIR$/App.jsx" />
         <option value="$PROJECT_DIR$/client/Index.jsx" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/client/stylesheets/webglheader.css" />
-        <option value="$PROJECT_DIR$/Components/WebGlHeader.jsx" />
         <option value="$PROJECT_DIR$/.meteor/packages" />
-        <option value="$PROJECT_DIR$/Components/Nav.jsx" />
         <option value="$PROJECT_DIR$/client/nav.js" />
-        <option value="$PROJECT_DIR$/client/App.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Components/Services.jsx" />
         <option value="$PROJECT_DIR$/Components/GetStarted.jsx" />
         <option value="$PROJECT_DIR$/Components/Blog.jsx" />
         <option value="$PROJECT_DIR$/client/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/client/App.jsx" />
+        <option value="$PROJECT_DIR$/client/stylesheets/nav.css" />
+        <option value="$PROJECT_DIR$/Components/HomePage.jsx" />
+        <option value="$PROJECT_DIR$/client/stylesheets/HomePage.css" />
+        <option value="$PROJECT_DIR$/Components/Nav.jsx" />
+        <option value="$PROJECT_DIR$/Components/WebGlHeader.jsx" />
+        <option value="$PROJECT_DIR$/client/stylesheets/webglheader.css" />
         <option value="$PROJECT_DIR$/client/modal.js" />
       </list>
     </option>
@@ -213,6 +214,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ppcw-meteor-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ppcw-meteor-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ppcw-meteor-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,11 +334,11 @@
       <recent name="$PROJECT_DIR$/node_modules" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/public/javascripts" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/imports" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -430,12 +449,12 @@
       <workItem from="1504319653510" duration="166000" />
       <workItem from="1504319838643" duration="16000" />
       <workItem from="1504319874563" duration="361000" />
-      <workItem from="1504320554731" duration="17186000" />
+      <workItem from="1504320554731" duration="24453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20681000" />
+    <option name="totallyTimeSpent" value="27948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -471,24 +490,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/Index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Test.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/layouts/MainLayout.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -717,33 +718,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/test.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/webglheader.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.meteor/packages">
@@ -754,30 +731,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Components/WebGlHeader.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/Index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -798,13 +757,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Nav.jsx">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -816,38 +773,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Components/GetStarted.jsx">
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/nav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="88">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/HomePage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Components/Blog.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
+        <state relative-caret-position="22">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/main.css">
+    <entry file="file://$PROJECT_DIR$/Components/GetStarted.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="22">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Nav.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/HomePage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3850">
+          <caret line="175" column="26" lean-forward="false" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/WebGlHeader.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="133" lean-forward="false" selection-start-line="9" selection-start-column="133" selection-end-line="9" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/webglheader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="64" column="48" lean-forward="false" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+        <state relative-caret-position="366">
+          <caret line="42" column="59" lean-forward="true" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="65" />
           <folding />
         </state>
       </provider>
