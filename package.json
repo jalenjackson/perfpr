@@ -1,0 +1,22 @@
+{
+  "name": "perfectpresence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/perfpr/ppcw-meteor-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/perfpr/ppcw-meteor-website#readme",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-mounter": "^1.2.0"
+  }
+}
