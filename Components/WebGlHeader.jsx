@@ -14,7 +14,7 @@ export default class WebGlHeader extends Component {
                         <figure className="slide-up" style={{animationDelay: "0.6s"}}>
                             <div>
                                 <span  >Schedule My Consultation Today</span>
-                                <span style={{color:"rgb(120,185,84)"}}>Let's Get Started</span>
+                                <span style={{color:"black"}}>Let's Get Started</span>
                             </div>
                         </figure>
                     </div>

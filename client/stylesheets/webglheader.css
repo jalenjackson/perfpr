@@ -5,6 +5,8 @@
     height: 400px;
 }
 
+
+
 #myCanvas {
     background:linear-gradient(0deg ,black, black);
     margin-top:100px;
@@ -16,7 +18,7 @@
     left:0;
     width:100%;
     height:100%;
-    background:rgba(0,0,0,0.5);
+    background:rgba(0,0,0,0.7);
     z-index: 5;
 }
 
@@ -26,12 +28,12 @@
     margin-left: 100px;
     font-weight: normal;
     color: #fff;
-    text-transform: uppercase;
-    font-size: 8em;
+    font-size: 4em;
     white-space: nowrap;
-    font-size: 7vw;
+    font-size: 5vw;
     z-index: 1000;
-    font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
     text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
     -moz-transition-property: font-size;
     -o-transition-property: font-size;
@@ -42,6 +44,8 @@
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
     opacity:0;
+    margin-top:80px;
+    letter-spacing: -3px;
 
 }
 
