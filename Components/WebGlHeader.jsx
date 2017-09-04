@@ -6,8 +6,8 @@ export default class WebGlHeader extends Component {
             <div>
                 <div  className="webgl-overlay">
                     <div className="wrap">
-                        <h1 className="slide-up">Your Big Idea <br/> Made Real!</h1>
-                        <p className="slide-up" style={{animationDelay: "0.3s"}}>You’re personal idea factory. Create and market <br/> the ideas you could only dream of.<br/>
+                        <h1 className="slide-up">Your Big Idea <br/> Made Real</h1>
+                        <p className="slide-up" style={{animationDelay: "0.3s", lineHeight: "28px"}}>You’re personal idea factory. <br/> Create and market the ideas you could only dream of.<br/>
                             Get all the resources for your idea all in one place!
                         </p>
 

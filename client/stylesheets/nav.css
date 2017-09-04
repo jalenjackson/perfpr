@@ -1,4 +1,5 @@
 /* NAVIGATION */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 
 nav {
     width: 100%;
@@ -13,6 +14,8 @@ nav ul {
     margin-right:100px;
     margin-top:30px;
 }
+
+
 nav ul li {
     display: inline-block;
 }
@@ -216,6 +219,9 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     padding:0 0 0 15px;
     list-style-type: none;
     font-size:13px;
+    font-weight: 100 !important;
+    font-family:"Roboto", sans-serif;
+
 }
 
 .column il li {
@@ -229,17 +235,19 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 
 .column h2 {
     font-size:17px;
-    font-family:"Open Sans", sans-serif;
+    font-family:"Roboto", sans-serif;
     font-weight:bold;
     text-align: center;
 }
 
 .services-tab h1 {
     font-size:40px;
-    font-family:"Open Sans", sans-serif;
-    font-weight: 100;
+    font-family:"Roboto", sans-serif;
+    font-weight:bold;
     margin-left: 20px;
 }
+
+
 
 .columns {
     margin-left: -17px;

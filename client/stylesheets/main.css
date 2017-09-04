@@ -35,6 +35,20 @@ body {
 
 }
 
+
+.slide-enter, .slide-appear {
+    opacity: 1;
+    animation: opac2 2s cubic-bezier(0.165,0.84,0.44,1) forwards ;
+
+}
+
+.slide-leave {
+    opacity:1;
+    animation: opac2 2s cubic-bezier(0.165,0.84,0.44,1);
+
+
+}
+
 @keyframes opac {
     0%{
         opacity:0;
@@ -48,3 +62,16 @@ body {
     }
 }
 
+
+@keyframes opac2 {
+    0%{
+        opacity:0;
+        transform: translate3D(-100px,0px,0);
+
+    }
+    100%{
+        opacity:1;
+        transform: translate3D(0,0,0);
+
+    }
+}
