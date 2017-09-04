@@ -6,7 +6,7 @@ import Intro from "./Intro";
 export default class HomePage extends Component {
     render(){
         return(
-            <div style={{marginTop: "-30px",background:"white"}} id="get-started">
+            <div style={{marginTop: "-30px",background:"white"}} id="home-page">
 
 
                 <div  id="pagewrap">
