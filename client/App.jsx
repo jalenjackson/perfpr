@@ -5,6 +5,9 @@ import Blog from '../Components/Blog';
 import GetStarted from '../Components/GetStarted';
 import Services from '../Components/Services';
 import HomePage from '../Components/HomePage';
+import Design from '../Components/Design'
+import Development from '../Components/Development'
+import Strategy from '../Components/Strategy'
 
 
 
@@ -23,6 +26,11 @@ export default class App extends Component {
                     <Route exact path='/blog' component={Blog} />
                     <Route exact path='/getstarted' component={GetStarted} />
                     <Route exact path='/services' component={Services} />
+
+                    <Route exact path='/strategy' component={Strategy} />
+                    <Route exact path='/development' component={Development} />
+                    <Route exact path='/design' component={Design} />
+
                 </div>
 
             </BrowserRouter>

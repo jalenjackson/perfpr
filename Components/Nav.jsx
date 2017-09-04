@@ -22,53 +22,54 @@ export default class Nav extends Component {
                                 </div>
                             </ul>
                         </nav>
+                        <div className="services-tab">
+
+                            <div className="show">
+                                <h1>Services</h1>
+
+                                <div className="columns">
+                                    <div className="column">
+                                        <h2><NavLink to="/design">Design</NavLink></h2>
+                                        <ul>
+                                            <li>UI/UX Development</li>
+                                            <li>Branding</li>
+                                            <li>Media Production</li>
+                                            <li>Prototyping</li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="column">
+                                        <h2><NavLink to="/strategy">Strategy</NavLink></h2>
+                                        <ul>
+                                            <li>Social Media</li>
+                                            <li>Product Strategy</li>
+                                            <li>Industry Research</li>
+                                            <li>Market Testing</li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="column">
+                                        <h2><NavLink to="/development">Development</NavLink></h2>
+                                        <ul>
+                                            <li>Web Design</li>
+                                            <li>App Development</li>
+                                            <li>AR/VR Technologies</li>
+                                            <li>Blockchain - <br/> Development</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="pic-show">
+                                <div className="pic-tab">
+                                    <img src="https://lh3.googleusercontent.com/mj8h8Zz3QSSt8tm0x0QstTHcSiMSMuGcvFSqlN8-c05k4O7WCIkB317SJhizIAxE5-O7=w300"/>
+                                </div>
+                            </div>
+                        </div>
                     </section>
 
 
-                    <div className="services-tab">
 
-                        <div className="show">
-                        <h1>Services</h1>
-
-                        <div className="columns">
-                        <div className="column">
-                            <h2>Design</h2>
-                            <ul>
-                                <li>UI/UX Development</li>
-                                <li>Branding</li>
-                                <li>Media Production</li>
-                                <li>Prototyping</li>
-                            </ul>
-                        </div>
-
-                        <div className="column">
-                            <h2>Strategy</h2>
-                            <ul>
-                                <li>Social Media</li>
-                                <li>Product Strategy</li>
-                                <li>Industry Research</li>
-                                <li>Market Testing</li>
-                            </ul>
-                        </div>
-
-                        <div className="column">
-                            <h2>Development</h2>
-                            <ul>
-                                <li>Web Design</li>
-                                <li>App Development</li>
-                                <li>AR/VR Technologies</li>
-                                <li>Blockchain - <br/> Development</li>
-                            </ul>
-                        </div>
-                        </div>
-                        </div>
-
-                        <div className="pic-show">
-                        <div className="pic-tab">
-                            <img src="https://lh3.googleusercontent.com/mj8h8Zz3QSSt8tm0x0QstTHcSiMSMuGcvFSqlN8-c05k4O7WCIkB317SJhizIAxE5-O7=w300"/>
-                        </div>
-                        </div>
-                    </div>
 
                 <i className="fa fa-bars"></i>
 

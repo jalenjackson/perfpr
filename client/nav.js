@@ -1,22 +1,41 @@
 Meteor.startup(function() {
-    $(".services-link").hover(function(){
-       $(".services-tab").addClass("show-services-tab");
+
+    var isHovering = false;
+
+    $(".services-link, .services-tab").hover(function(){
+        isHovering = true;
       setTimeout(function(){
-          $(".pic-show").css({opacity: "1"});
+          $(".pic-show").addClass("show-img");
 
       },300);
+        $(".services-tab").css({height: "50%"});
+        $(".services-tab").addClass("show-services-tab");
+
         setTimeout(function(){
             $(".show").addClass("show-services-info");
         },500);
 
     }, function(){
-        $(".show").removeClass("show-services-info");
-        $(".pic-show").css({opacity: "0"});
+        isHovering = false;
 
-        setTimeout(function(){
-            $(".services-tab").removeClass("show-services-tab");
-        },300);
+
+
+        if(!isHovering) {
+            setTimeout(function () {
+                $(".show").removeClass("show-services-info");
+
+            }, 500);
+            setTimeout(function () {
+
+                $(".services-tab").removeClass("show-services-tab");
+            }, 1000);
+        }
     });
+
+    $("a").click(function(){
+        $(".services-tab").css({height: "0px"});
+    });
+
 
 
 
