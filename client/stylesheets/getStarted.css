@@ -18,18 +18,48 @@
     font-size: 12px;
     line-height: 30px;
     color: #777;
+    position: absolute;
+    width: 100%;
+    height:auto;
+    background:white;
+    margin-bottom: 750px;
+
+}
+
+#get-started h1 {
+    font-size:60px;
+    color:black;
+    margin-top:100px;
+    line-height: 63px;
+    margin-left:40px;
+}
+
+#get-started h2 {
+    margin-left: 40px;
+    color:black;
+    font-size:20px;
+    font-weight: 100;
+}
+
+.get-started-text {
+    position: absolute;
+}
+
+.get-started-text img {
+    width:350px;
+    height:auto;
+    margin-left:40px;
 }
 
 
 
-
 .outer-form {
-    background: #4CAF50;
+    background:  url(https://i.pinimg.com/originals/34/73/3d/34733d6a94bdd109b295802e518d8c33.jpg) center center no-repeat;
+    background-size:cover;
     width:60%;
     float:right;
-    position: absolute;
-    right:0;
-    top:110px;
+    position: relative;
+
 }
 .container2 {
     width:400px;
@@ -173,33 +203,3 @@ select {
     animation: type2 8s steps(60, end);
 }
 
-
-
-span{
-    animation: blink 1s infinite;
-}
-
-@keyframes type{
-    from { width: 0; }
-}
-
-@keyframes type2{
-    0%{width: 0;}
-    50%{width: 0;}
-    100%{ width: 100; }
-}
-
-@keyframes blink{
-    to{opacity: .0;}
-}
-
-::selection{
-    background: black;
-}
-
-
-.yo {
-    font-family: 'Open Sans', sans-serif;
-    display: block;
-
-}

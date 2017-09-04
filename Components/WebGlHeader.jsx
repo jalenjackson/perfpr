@@ -15,7 +15,7 @@ export default class WebGlHeader extends Component {
                     </div>
                 </div>
 
-                <div id="webgl">
+                <div style={{background:"black"}} id="webgl">
 
                 </div>
             </div>

@@ -6,7 +6,8 @@
 #pagewrap {
     padding: 5px;
     width: 960px;
-    margin: 20px auto;
+    margin: 0px auto;
+
 }
 header {
     height: 100px;
@@ -150,7 +151,6 @@ header, #content, #middle, #sidebar {
 
     margin-top:300px;
     border-bottom: 5px solid rgb(120,185,84);
-    margin-bottom: 750px; /* Same height as footer */
 
 
 }
@@ -211,5 +211,9 @@ header, #content, #middle, #sidebar {
 }
 
 #middle a:hover {
-    color:black;
+    color:white;
+}
+
+#sidebar p {
+    text-align:center;
 }

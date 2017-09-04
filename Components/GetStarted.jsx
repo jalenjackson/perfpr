@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
+import Footer from './Footer';
+
 
 export default class GetStarted extends Component {
     render(){
@@ -7,9 +9,12 @@ export default class GetStarted extends Component {
             <div id="get-started">
 
 
-                <h1>Make Your Idea Come To Life.</h1>
-                    <h1>Questions? We Love To Help</h1>
-                    <h1>Info@perfpr.com | +1-301-798-6192</h1>
+                <div className="get-started-text">
+                    <h1>Make Your Idea <br/> Come To Life.</h1>
+                <h2>Questions? <span style={{color: "green"}}>We Love To Help</span></h2>
+                    <h2>Info@perfpr.com | +1-301-798-6192</h2>
+                    <img src="https://i.pinimg.com/originals/a5/2d/9b/a52d9ba54264337baa487a48141a1bcf.gif"/>
+                </div>
 
                     <div className="outer-form">
                         <ReactCSSTransitionGroup
@@ -59,6 +64,8 @@ export default class GetStarted extends Component {
                     </div>
                         </ReactCSSTransitionGroup>
                     </div>
+
+                <Footer/>
             </div>
         )
     }
