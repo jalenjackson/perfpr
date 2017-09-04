@@ -1,5 +1,8 @@
 /* STRUCTURE */
 
+
+
+
 #pagewrap {
     padding: 5px;
     width: 960px;
@@ -52,6 +55,7 @@ section img {
 
 section p {
     margin-top:-12px;
+    font-weight:bold;
 }
 
 h5 {
@@ -144,8 +148,10 @@ header, #content, #middle, #sidebar {
     background:linear-gradient(to left, rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(https://tctechcrunch2011.files.wordpress.com/2014/11/screen-shot-2014-11-11-at-12-49-02-pm.png) center center no-repeat;
     background-size: cover;
 
-    margin-top:280px;
+    margin-top:300px;
     border-bottom: 5px solid rgb(120,185,84);
+    margin-bottom: 750px; /* Same height as footer */
+
 
 }
 
@@ -160,10 +166,16 @@ header, #content, #middle, #sidebar {
 
 .footer {
     width: 100%;
-    background:rgb(20,20,20);
-    height:400px;
-    position: relative;
+    height:100%;
 
+}
+
+.footer img {
+    width:450px;
+    height:auto;
+    margin: 0 auto;
+    display: block;
+    transform: translateY(70px);
 }
 
 .bottom-footer {
@@ -175,4 +187,29 @@ header, #content, #middle, #sidebar {
     background:rgb(10,10,10);
     border-top: 1px solid rgb(120,185,84);
     z-index:6;
+
+}
+.fixed_footer{
+    width: 100%;
+    position: fixed; left: 0; top: 0;
+    z-index: -100;
+    background:rgb(20,20,20);
+    overflow: hidden;
+
+}
+
+
+#middle a {
+    display: block;
+    text-align:center;
+    font-size:13px;
+    color: rgb(120,185,84);
+    font-weight:bold;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    transform: translateY(-20px);
+}
+
+#middle a:hover {
+    color:black;
 }

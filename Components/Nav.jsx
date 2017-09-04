@@ -7,22 +7,68 @@ import { NavLink } from 'react-router-dom'
 export default class Nav extends Component {
     render(){
         return(
-            <div>
+            <div >
 
                     <section>
-                        <nav className="circle">
+                        <nav style={{zIndex:"10"}} className="circle">
                             <ul>
                                 <img src="/images/logo.png"/>
 
                                 <div className="container red topBotomBordersOut">
                                     <a href="/">Home</a>
-                                    <NavLink to="/services">Services</NavLink>
+                                    <NavLink className="services-link" to="/services">Services</NavLink>
                                     <NavLink to="/blog">Blog</NavLink>
                                     <NavLink to="/getstarted">Get Started</NavLink>
                                 </div>
                             </ul>
                         </nav>
                     </section>
+
+
+                    <div className="services-tab">
+
+                        <div className="show">
+                        <h1>Services</h1>
+
+                        <div className="columns">
+                        <div className="column">
+                            <h2>Design</h2>
+                            <ul>
+                                <li>UI/UX Development</li>
+                                <li>Branding</li>
+                                <li>Media Production</li>
+                                <li>Prototyping</li>
+                            </ul>
+                        </div>
+
+                        <div className="column">
+                            <h2>Strategy</h2>
+                            <ul>
+                                <li>Social Media</li>
+                                <li>Product Strategy</li>
+                                <li>Industry Research</li>
+                                <li>Market Testing</li>
+                            </ul>
+                        </div>
+
+                        <div className="column">
+                            <h2>Development</h2>
+                            <ul>
+                                <li>Web Design</li>
+                                <li>App Development</li>
+                                <li>AR/VR Technologies</li>
+                                <li>Blockchain - <br/> Development</li>
+                            </ul>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div className="pic-show">
+                        <div className="pic-tab">
+                            <img src="https://lh3.googleusercontent.com/mj8h8Zz3QSSt8tm0x0QstTHcSiMSMuGcvFSqlN8-c05k4O7WCIkB317SJhizIAxE5-O7=w300"/>
+                        </div>
+                        </div>
+                    </div>
 
                 <i className="fa fa-bars"></i>
 

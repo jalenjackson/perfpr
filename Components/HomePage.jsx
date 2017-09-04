@@ -1,13 +1,15 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import Footer from './Footer'
+
 
 export default class HomePage extends Component {
     render(){
         return(
-            <div style={{marginTop:"30px"}} id="get-started">
+            <div style={{marginTop: "-30px",background:"white"}} id="get-started">
 
-                <div id="pagewrap">
+                <div  id="pagewrap">
 
-                    <header>
+                    <header style={{transform: "translateY(40px)"}}>
                         <p>Your Team for Brand Success</p>
                     </header>
 
@@ -41,12 +43,8 @@ export default class HomePage extends Component {
                     <p>Your Brand Success Is Our Business</p>
                 </div>
 
-                <div className="footer">
 
-                    <div className="bottom-footer">
-                    </div>
-                </div>
-
+                <Footer/>
 
 
             </div>
