@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
-import Footer from './Footer'
+import Footer from './Footer';
+import Intro from "./Intro";
 
 
 export default class HomePage extends Component {
     render(){
         return(
             <div style={{marginTop: "-30px",background:"white"}} id="get-started">
+
 
                 <div  id="pagewrap">
 

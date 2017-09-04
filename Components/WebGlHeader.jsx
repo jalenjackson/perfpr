@@ -1,9 +1,12 @@
 import React, {Component} from 'react'
+import Intro from './Intro'
 
 export default class WebGlHeader extends Component {
     render(){
         return(
             <div>
+                <Intro/>
+
                 <div  className="webgl-overlay">
                     <div className="wrap">
                         <h1 className="slide-up">Your Big Idea <br/> Made Real</h1>

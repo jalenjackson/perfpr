@@ -20,6 +20,7 @@ Meteor.startup(function() {
 
 
 
+
         if(!isHovering) {
             setTimeout(function () {
                 $(".show").removeClass("show-services-info");
@@ -27,7 +28,11 @@ Meteor.startup(function() {
             }, 500);
             setTimeout(function () {
 
-                $(".services-tab").removeClass("show-services-tab");
+                if(!isHovering) {
+                    $(".services-tab").removeClass("show-services-tab");
+                    $(".services-tab").css({height: "0%"});
+                }
+
             }, 1000);
         }
     });
@@ -37,6 +42,12 @@ Meteor.startup(function() {
     });
 
 
+    $(window).on("load", function(){
+        setTimeout(function(){
+            $("body").css({overflowY: "scroll"});
+        },1000);
+        $(".intro").addClass("intro-gone");
+    });
 
 
 

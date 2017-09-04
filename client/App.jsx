@@ -8,6 +8,7 @@ import HomePage from '../Components/HomePage';
 import Design from '../Components/Design'
 import Development from '../Components/Development'
 import Strategy from '../Components/Strategy'
+import Intro from '../Components/Intro'
 
 
 

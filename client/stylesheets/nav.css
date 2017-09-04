@@ -187,6 +187,8 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     opacity: 1;
     height: 0%;
     overflow: hidden;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
 
 }
 
@@ -201,6 +203,7 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 .show-services-tab {
     opacity: 1;
     height: 50%;
+
 }
 
 
@@ -323,4 +326,63 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 .pic-show {
     transition: all 300ms ease-in-out;
     opacity: 0;
+}
+
+.intro {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:black;
+    pointer-events: none;
+}
+
+.intro img {
+    width:500px;
+    height: auto;
+    margin: 0 auto;
+    margin-top:150px;
+    display: block;
+    position: relative;
+}
+
+.design-line {
+    animation: insist 2s ease-in-out forwards infinite;
+    background:linear-gradient(to left, rgba(255,255,255,0.3), rgba(255,255,255,0.2));
+    height:1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+.intro-gone {
+    animation: introgone 300ms ease-in-out 1s forwards;
+}
+
+@keyframes introgone {
+    0%{
+        opacity: 1;
+    }
+    100%{
+       opacity: 0;
+    }
+}
+
+
+@keyframes insist {
+    0% {
+        width: 0%;
+        left: 0%;
+    }
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0%;
+        right: 0;
+        left: 100%;
+    }
 }
