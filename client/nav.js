@@ -45,6 +45,7 @@ Meteor.startup(function() {
     $(window).on("load", function(){
         setTimeout(function(){
             $("body").css({overflowY: "scroll"});
+            $(".add-slide-up").addClass("slide-up");
         },1000);
         $(".intro").addClass("intro-gone");
     });
