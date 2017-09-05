@@ -24,14 +24,7 @@ export default class GetStarted extends Component {
                 </div>
                 </ReactCSSTransitionGroup>
                     <div className="outer-form">
-                        <ReactCSSTransitionGroup
-                            component="div"
-                            transitionName="change"
-                            transitionEnterTimeout={6000}
-                            transitionAppearTimeout={2000}
-                            transitionLeaveTimeout={4000}
-                            transitionAppear={true}
-                        >
+
                     <div className="container2">
                         <form id="contact" action="" method="post">
                             <h3>How Can We Help You Grow Your Brand?</h3>
@@ -69,7 +62,6 @@ export default class GetStarted extends Component {
                             <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
                     </form>
                     </div>
-                        </ReactCSSTransitionGroup>
                     </div>
 
                 <Footer/>
