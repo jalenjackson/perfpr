@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
 
 export default class Strategy extends Component {
     render(){

@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
 import Footer from './Footer';
 
 
@@ -8,21 +7,12 @@ export default class GetStarted extends Component {
         return(
             <div id="get-started">
 
-                <ReactCSSTransitionGroup
-                    component="div"
-                    transitionName="slide"
-                    transitionEnterTimeout={6000}
-                    transitionAppearTimeout={2000}
-                    transitionLeaveTimeout={4000}
-                    transitionAppear={true}
-                >
                 <div className="get-started-text">
                     <h1>Make Your Idea <br/> Come To Life.</h1>
                 <h2>Questions? <span style={{color: "green"}}>We Love To Help</span></h2>
                     <h2>Info@perfpr.com | +1-301-798-6192</h2>
                     <img src="https://i.pinimg.com/originals/a5/2d/9b/a52d9ba54264337baa487a48141a1bcf.gif"/>
                 </div>
-                </ReactCSSTransitionGroup>
                     <div className="outer-form">
 
                     <div className="container2">

@@ -3,11 +3,11 @@ import React, {Component} from 'react'
 export default class Footer extends Component {
     render(){
         return(
-            <div>
+            <div className="footer-div">
                 <footer className="footer fixed_footer">
                     <img src="/images/footerlogo.png"/>
 
-                    <div style={{transform: "translateY(50px)"}} id="pagewrap">
+                    <div style={{ background:"black", transform: "translateY(100px)"}} id="pagewrap">
 
                         <section id="content">
                             <h5 style={{color:"white"}}>About Us</h5>

@@ -171,7 +171,6 @@ header, #content, #middle, #sidebar {
     background-size: cover;
     background-position: 0px -250px;
     margin-top:350px;
-    margin-bottom: 750px;
 
 
 }
@@ -199,25 +198,6 @@ header, #content, #middle, #sidebar {
     transform: translateY(70px);
 }
 
-.bottom-footer {
-    position: absolute;
-    bottom: 0;
-    left:0;
-    width:100%;
-    height:60px;
-    background:rgb(10,10,10);
-    border-top: 1px solid rgb(120,185,84);
-    z-index:6;
-
-}
-.fixed_footer{
-    width: 100%;
-    position: fixed; left: 0; top: 0;
-    z-index: -100;
-    background:rgb(20,20,20);
-    overflow: hidden;
-
-}
 
 
 #middle a {
@@ -237,4 +217,17 @@ header, #content, #middle, #sidebar {
 
 #sidebar p {
     text-align:center;
+}
+
+.footer {
+    background: black;
+}
+
+.footer-div {
+    width:100%;
+    height: 620px;
+}
+
+.footer p {
+    color:white !important;
 }

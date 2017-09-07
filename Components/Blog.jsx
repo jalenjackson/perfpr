@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
 import Footer from "./Footer";
 
 export default class Blog extends Component {
@@ -9,16 +8,8 @@ export default class Blog extends Component {
 
                 <div className="intro-header">
                     <div className="inner-text">
-                        <ReactCSSTransitionGroup
-                            component="div"
-                            transitionName="slide"
-                            transitionEnterTimeout={6000}
-                            transitionAppearTimeout={2000}
-                            transitionLeaveTimeout={4000}
-                            transitionAppear={true}
-                        >
+
                         <h4 style={{textAlign:"center"}}><b>Perfect Presence</b> Blog</h4>
-                        </ReactCSSTransitionGroup>
 
                         <i className="fa fa-search"/>
                             <input type="text" placeholder="Search Blogs"/>
@@ -44,6 +35,7 @@ export default class Blog extends Component {
                         </div>
                     </div>
                 </div>
+
             </div>
         )
     }
