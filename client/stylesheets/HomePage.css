@@ -132,6 +132,9 @@ MEDIA QUERIES
     .footer {
         height: 1000px !important;
     }
+    .bottom-message p {
+        font-size:25px !important;
+    }
 }
 
 /* for 700px or less */
@@ -164,6 +167,8 @@ MEDIA QUERIES
     .footer {
         height: 1000px !important;
     }
+
+
 
 }
 
