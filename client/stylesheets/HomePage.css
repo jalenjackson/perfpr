@@ -203,6 +203,14 @@ MEDIA QUERIES
         font-size:20px !important;
     }
 
+    .intro {
+        display: none !important;
+    }
+
+    .add-slide-up {
+        animation: opac 2s 1s cubic-bezier(0.165,0.84,0.44,1) forwards;
+    }
+
 
 
 

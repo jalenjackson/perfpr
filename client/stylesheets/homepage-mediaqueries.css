@@ -59,6 +59,10 @@
     .footer {
         max-width:100% !important;
     }
+
+    .intro {
+        display: none !important;
+    }
     
 
 }
