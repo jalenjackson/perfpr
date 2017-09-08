@@ -4,8 +4,7 @@ export default class Intro extends Component {
     render(){
         return(
             <div style={{zIndex: 900}} className="intro">
-                <img src="/images/logo.png"/>
-                <div className="design-line"></div>
+                <h1 className="h1-intro">Perfect Presence</h1>
             </div>
         )
     }

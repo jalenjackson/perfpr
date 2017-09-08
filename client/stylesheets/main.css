@@ -11,6 +11,10 @@ body {
     overflow-y: hidden;
 }
 
+html {
+    width: 100%;
+}
+
 .active-nav {
     background: rgb(118,182,83);
     display: block;

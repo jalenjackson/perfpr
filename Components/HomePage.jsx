@@ -12,7 +12,7 @@ export default class HomePage extends Component {
                 <div  id="pagewrap">
 
                     <header style={{transform: "translateY(40px)"}}>
-                        <p>Your Team for Brand Success</p>
+                        <p className="home-header">Your Team for Brand Success</p>
                     </header>
 
                     <section id="content">

@@ -120,6 +120,18 @@ MEDIA QUERIES
     header, footer {
         padding: 1% 4%;
     }
+    #pagewrap {
+        height: 350px;
+    }
+
+    .footer img {
+        width: 200px !important;
+
+    }
+
+    .footer {
+        height: 1000px !important;
+    }
 }
 
 /* for 700px or less */
@@ -140,6 +152,18 @@ MEDIA QUERIES
         width: auto;
         float: none;
     }
+    #pagewrap {
+        height: 600px;
+    }
+
+    .footer img {
+        width: 200px !important;
+
+    }
+
+    .footer {
+        height: 1000px !important;
+    }
 
 }
 
@@ -152,9 +176,35 @@ MEDIA QUERIES
     h1 {
         font-size: 2em;
     }
-    #sidebar {
-        display: none;
+
+    #pagewrap {
+        height: 600px;
     }
+
+    header p {
+        font-size:25px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .bottom-message p {
+        font-size:20px !important;
+    }
+
+    .footer img {
+        width: 200px !important;
+
+    }
+
+    .footer-div {
+        height: 1000px !important;
+    }
+
+    .h1-intro {
+        font-size:20px !important;
+    }
+
+
+
 
 }
 
@@ -169,7 +219,6 @@ header, #content, #middle, #sidebar {
     height: 200px;
     background:linear-gradient(to left, rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(https://static1.squarespace.com/static/588aed4c15d5dbbd78c79d6d/t/589df51c9de4bba912b5544f/1486746951269/) center center no-repeat;
     background-size: cover;
-    background-position: 0px -250px;
     margin-top:350px;
 
 
@@ -225,7 +274,8 @@ header, #content, #middle, #sidebar {
 
 .footer-div {
     width:100%;
-    height: 620px;
+    height: 720px;
+    overflow: hidden !important;
 }
 
 .footer p {

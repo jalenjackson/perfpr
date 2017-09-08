@@ -1,0 +1,64 @@
+@media only screen and (max-width: 900px) {
+    .responsive-nav {
+        display: none;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 600px){
+    .nav-logo {
+        transform: scale(0.65) translate(-100px, 10px);
+        margin-left: 10px !important;
+        margin: 0 !important;
+    }
+
+    .responsive-nav {
+        margin: 0 !important;
+    }
+
+    .wrap h1 {
+        font-size:40px !important;
+        margin-left:30px !important;
+    }
+
+    .wrap p {
+        font-size:14px !important;
+        margin-left: 30px !important;
+    }
+
+    .button-consultation {
+        margin-left: 30px !important;
+    }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .h1-intro {
+        font-size:20px !important;
+    }
+
+    html, body {
+        width: 100% !important;
+        height: 100%;
+    }
+
+    .bottom-message {
+        width:100% !important;
+    }
+
+    nav {
+        width: 100% !important;
+    }
+    .footer {
+        max-width:100% !important;
+    }
+    
+
+}

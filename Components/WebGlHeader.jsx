@@ -21,6 +21,8 @@ export default class WebGlHeader extends Component {
                 <div style={{background:"black"}} id="webgl">
 
                 </div>
+
+                <div className="responsive-webgl"></div>
             </div>
         )
     }

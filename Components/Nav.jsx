@@ -10,11 +10,11 @@ export default class Nav extends Component {
             <div >
 
                     <section>
-                        <nav style={{zIndex:"10"}} className="circle">
+                        <nav style={{zIndex:"10"}} className="circle ">
                             <ul>
-                                <img src="/images/logo.png"/>
+                                <img className="nav-logo" src="/images/logo.png"/>
 
-                                <div className="container red topBotomBordersOut">
+                                <div className="container red topBotomBordersOut responsive-nav">
                                     <a href="/">Home</a>
                                     <NavLink className="services-link" to="/services">Services</NavLink>
                                     <NavLink to="/blog">Blog</NavLink>
