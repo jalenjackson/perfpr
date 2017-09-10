@@ -57,7 +57,7 @@ Meteor.startup(function() {
     $(window).on("load", function(){
         setTimeout(function(){
             $(".add-slide-up").addClass("slide-up");
-        },1500);
+        },2500);
 
         if(isAtHome) {
             setTimeout(function () {
