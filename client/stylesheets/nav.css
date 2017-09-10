@@ -453,7 +453,7 @@ a {
 
 .fa-times {
     position: absolute;
-    left:40px;
+    right:40px;
     top:20px;
     font-size:30px !important;
     cursor: pointer;
@@ -462,11 +462,10 @@ a {
 .design-color {
     width: 1500px;
     height: 2000px;
-    background:rgb(120,129,108);
+    background:rgb(30,39,8);
     transform: rotate(50deg);
     position: absolute;
-    top:-400px;
+    top:-100px;
     right: -1200px;
     z-index: -1;
-    border-radius: 50%;
 }
