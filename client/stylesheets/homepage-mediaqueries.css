@@ -31,11 +31,10 @@
 
     .get-started-text {
         position: relative !important;
-        transform: translateY(-100px) !important;
+        transform: translateY(-50px) !important;
     }
 
     .get-started {
-        transform:translateY(-100px) !important;
     }
 
 
@@ -60,13 +59,16 @@
         margin: 0 !important;
     }
 
+    .message {
+        font-size:40px !important;
+    }
+
     .nav-dropdown h2 {
         font-size:30px !important;
     }
 
     .get-started-text {
         position: relative !important;
-        transform: translateY(-100px) !important;
     }
 
     .responsive-nav {
@@ -87,7 +89,6 @@
         margin-left: 30px !important;
     }
     .get-started {
-        font-size:40px !important;
     }
 
     .outer-form {
@@ -95,7 +96,7 @@
     }
 
     .get-started {
-        transform:translateY(-100px) !important;
+        transform:translateY(0px) !important;
     }
 
 
@@ -132,7 +133,7 @@
     }
 
     .get-started {
-        transform:translateY(-100px) !important;
+        transform:translateY(0px) !important;
     }
 
     #contact {
@@ -158,7 +159,6 @@
 
     .get-started-text {
         position: relative !important;
-        transform: translateY(-100px) !important;
     }
 
     .bottom-message {
