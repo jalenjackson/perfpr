@@ -1,109 +1,133 @@
 Meteor.startup(function() {
-    var c = document.getElementById('c'),
-        ctx = c.getContext('2d'),
-        cw = c.width = 500,
-        ch = c.height = 500,
-        parts = [],
-        partCount = 500,
-        partsFull = false,
-        hueRange = 50,
-        globalTick = 0,
-        rand = function(min, max){
-            return Math.floor( (Math.random() * (max - min + 1) ) + min);
-        };
 
-    var Part = function(){
-        this.reset();
-    };
+    var isAtLocation = true;
 
-    Part.prototype.reset = function(){
-        this.startRadius = rand(1, 25);
-        this.radius = this.startRadius;
-        this.x = cw/2 + (rand(0, 6) - 3);
-        this.y = 250;
-        this.vx = 0;
-        this.vy = 0;
-        this.hue = rand(globalTick - hueRange, globalTick + hueRange);
-        this.saturation = rand(50, 100);
-        this.lightness = rand(20, 70);
-        this.startAlpha = rand(1, 10) / 100;
-        this.alpha = this.startAlpha;
-        this.decayRate = .1;
-        this.startLife = 7;
-        this.life = this.startLife;
-        this.lineWidth = rand(1, 3);
+
+    if(window.location.pathname === "/getstarted"){
+        isAtLocation = true;
+    } else {
+        isAtLocation = false;
     }
 
-    Part.prototype.update = function(){
-        this.vx += (rand(0, 200) - 100) / 1500;
-        this.vy -= this.life/50;
-        this.x += this.vx;
-        this.y += this.vy;
-        this.alpha = this.startAlpha * (this.life / this.startLife);
-        this.radius = this.startRadius * (this.life / this.startLife);
-        this.life -= this.decayRate;
-        if(
-            this.x > cw + this.radius ||
-            this.x < -this.radius ||
-            this.y > ch + this.radius ||
-            this.y < -this.radius ||
-            this.life <= this.decayRate
-        ){
-            this.reset();
-        }
-    };
+    console.log(window.location.href);
 
-    Part.prototype.render = function(){
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
-        ctx.fillStyle = ctx.strokeStyle = 'hsla('+this.hue+', '+this.saturation+'%, '+this.lightness+'%, '+this.alpha+')';
-        ctx.lineWidth = this.lineWidth;
-        ctx.fill();
-        ctx.stroke();
-    };
+    if(isAtLocation) {
 
-    var createParts = function(){
-        if(!partsFull){
-            if(parts.length > partCount){
-                partsFull = true;
-            } else {
-                parts.push(new Part());
+
+        var tick = 0,
+            smallestDimension = Math.min(window.innerWidth, window.innerHeight),
+            viewportWidth = smallestDimension,
+            viewportHeight = smallestDimension,
+            worldWidth = 100,
+            worldHeight = 100,
+            rows = 30,
+            cols = 30,
+            tileWidth = worldWidth / cols,
+            tileHeight = worldHeight / rows,
+            FOV = 90,
+            scene = new THREE.Scene(),
+            camera = new THREE.PerspectiveCamera(
+                FOV,
+                viewportWidth / viewportHeight,
+                0.1,
+                1000
+            ),
+            renderer = new THREE.WebGLRenderer({
+                antialias: true,
+                alpha: true
+            }),
+            plane = new THREE.Mesh(
+                new THREE.PlaneBufferGeometry(worldWidth, worldHeight, 1),
+                new THREE.MeshPhongMaterial({
+                    color: 0x222222
+                })
+            ),
+            cubes = new THREE.Object3D(),
+            spotLight = new THREE.SpotLight(0x00ff00),
+            ambientLight = new THREE.AmbientLight(0x666666);
+
+        renderer.setSize(viewportWidth, viewportHeight);
+        renderer.shadowMapEnabled = true;
+        renderer.shadowMapType = THREE.PCFSoftShadowMap;
+
+        scene.add(plane);
+        scene.add(cubes);
+        scene.add(spotLight);
+        scene.add(ambientLight);
+
+        for (var x = 0; x < cols; x++) {
+            for (var y = 0; y < rows; y++) {
+                var width = tileWidth,
+                    height = tileHeight,
+                    dx = ( cols / 2 - x ),
+                    dy = ( rows / 2 - y ),
+                    depth = 1 + ( 20 - Math.sqrt(dx * dx + dy * dy) ) / 4,
+                    xBase = -worldWidth / 2 + x * tileWidth + tileWidth / 2,
+                    yBase = -worldHeight / 2 + y * tileHeight + tileHeight / 2,
+                    zBase = depth / 2,
+                    cube = new THREE.Mesh(
+                        new THREE.BoxGeometry(width, height, depth),
+                        new THREE.MeshPhongMaterial({
+                            color: 'rgb(' + ~~( ( y / rows ) * 255 ) + ', ' + ~~( ( x / cols ) * 255 ) + ', 255)',
+                            shininess: 50
+                        })
+                    );
+                cube.position.set(
+                    xBase,
+                    yBase,
+                    zBase
+                );
+                cube.castShadow = true;
+                cube.receiveShadow = true;
+                cube.zBase = zBase;
+                cube.zScaleTarget = 1;
+                cubes.add(cube);
             }
         }
-    };
 
-    var updateParts = function(){
-        var i = parts.length;
-        while(i--){
-            parts[i].update();
+        plane.position.set(0, 0, 0);
+        plane.castShadow = false;
+        plane.receiveShadow = true;
+
+        camera.position.set(0, 0, 100);
+
+        spotLight.position.set(0, 0, 100);
+        spotLight.castShadow = true;
+        spotLight.shadowCameraNear = 0.1;
+        spotLight.shadowMapWidth = 2048;
+        spotLight.shadowMapHeight = 2048;
+        spotLight.shadowDarkness = 0.1;
+
+        function step() {
+            spotLight.position.x = Math.sin(tick / 100) * ( worldWidth / 2 );
+            spotLight.position.y = Math.cos(tick / 100) * ( worldHeight / 2 );
+
+            cubes.traverse(function (cube) {
+                if (cube instanceof THREE.Mesh) {
+                    if (Math.abs(cube.scale.z - cube.zScaleTarget) > 0.001) {
+                        cube.scale.z += ( cube.zScaleTarget - cube.scale.z ) * 0.05;
+                    } else {
+                        cube.zScaleTarget = 1 + Math.random() * 10;
+                    }
+                    cube.position.z = cube.geometry.parameters.depth / 2 * cube.scale.z;
+                }
+            });
+
+            tick++;
         }
-    };
 
-    var renderParts = function(){
-        var i = parts.length;
-        while(i--){
-            parts[i].render();
+        function render() {
+            renderer.render(scene, camera);
         }
-    };
 
-    var clear = function(){
-        ctx.globalCompositeOperation = 'destination-out';
-        ctx.fillStyle = 'hsla(0, 0%, 0%, .3)';
-        ctx.fillRect(0, 0, cw, ch);
-        ctx.globalCompositeOperation = 'lighter';
-    };
+        function loop() {
+            requestAnimationFrame(loop);
+            step();
+            render();
+        }
 
-    var loop = function(){
-        window.requestAnimFrame(loop, c);
-        clear();
-        createParts();
-        updateParts();
-        renderParts();
-        globalTick++;
-    };
+        loop();
 
-    window.requestAnimFrame=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(a){window.setTimeout(a,1E3/60)}}();
-
-    loop();
-
+        document.getElementById("webgl-particle").appendChild(renderer.domElement);
+    }
 });

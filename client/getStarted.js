@@ -5,7 +5,7 @@ $(window).scroll(function(){
 
     if(wScroll > 0){
         $(".parallax-scroll").css({
-            "transform":'translate(0px, ' + wScroll/10 + '%)'
+            "transform":'translate(0px, ' + wScroll/15 + '%)'
         });
     }
 });

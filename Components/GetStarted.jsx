@@ -14,9 +14,10 @@ export default class GetStarted extends Component {
         return(
             <div id="get-started">
 
-                <div className="design-circle"></div>
-                <canvas id="c"></canvas>
-                    <h2 className="get-started">Get Started</h2>
+                <div className="design-circle">
+                    <div id="webgl-particle"></div>
+                </div>
+                <h2  className="get-started slide-left">Get <span style={{color: "rgb(118,182,83)"}}> Started </span></h2>
                 <hr/>
                 <div className="get-started-text parallax-scroll">
                     <h1>Make Your Idea <br/> Come To Life.</h1>

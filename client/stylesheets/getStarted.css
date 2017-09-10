@@ -188,12 +188,15 @@ select {
 .get-started {
     font-size:80px !important;
     padding-bottom: 100px !important;
-    animation: slide-up 400ms ease-in-out forwards;
     font-weight: bold !important;
     font-family:Helvetica, sans-serif !important;
     margin-top:150px !important;
     color:black !important;
     line-height:100px;
+
+    transform: translateX(-100px) !important;
+    animation: slide-left 1s ease-in-out forwards;
+
 
 }
 
@@ -203,13 +206,27 @@ hr {
     float:left;
     margin-top:-50px;
     margin-left: 50px;
+    position: relative;
+    animation: size 1s ease-in-out forwards;
+
 }
 
-canvas {
-    position: absolute;
-    top:0px;right:100px;
-    transform: scale(2) rotate(80deg);
+
+@keyframes size {
+    0%{
+        opacity: 0;
+        transform: translate3D(-100px,0px,0);
+
+    }
+    100%{
+        opacity: 1;
+        transform: translate3D(0px,0px,0);
+
+
+    }
 }
+
+
 
 
 .design-circle {
@@ -236,6 +253,24 @@ canvas {
     position: relative;
     border-top: none;
     border-right: none;
+}
+
+
+
+
+@keyframes slide-left {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+
+    }
+    90%{
+        opacity:1;
+    }
+    100%{
+        transform: translateY(0px);
+
+    }
 }
 
 

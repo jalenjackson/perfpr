@@ -18,7 +18,7 @@ export default class Nav extends Component {
                                     <a href="/">Home</a>
                                     <NavLink className="services-link" to="/services">Services</NavLink>
                                     <NavLink to="/blog">Blog</NavLink>
-                                    <NavLink to="/getstarted">Get Started</NavLink>
+                                    <a  href="/getstarted">Get Started</a>
                                 </div>
                             </ul>
                         </nav>
