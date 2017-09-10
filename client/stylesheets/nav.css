@@ -6,7 +6,8 @@ nav {
     background: black;
     height:110px;
     white-space:nowrap;
-
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    z-index: 999999999 !important;
 }
 nav ul {
     list-style: none;
@@ -221,6 +222,7 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     width:300px;
     height:100%;
     background:rgb(120,129,108);
+
 }
 
 

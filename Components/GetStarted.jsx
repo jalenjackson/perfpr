@@ -1,17 +1,27 @@
 import React, {Component} from 'react'
 import Footer from './Footer';
+import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
 
 
 export default class GetStarted extends Component {
+
+    componentDidMount(){
+        window.scrollTo(0,0);
+    }
+
+
     render(){
         return(
             <div id="get-started">
 
-                <div className="get-started-text">
+                <div className="design-circle"></div>
+                <canvas id="c"></canvas>
+                    <h2 className="get-started">Get Started</h2>
+                <hr/>
+                <div className="get-started-text parallax-scroll">
                     <h1>Make Your Idea <br/> Come To Life.</h1>
                 <h2>Questions? <span style={{color: "green"}}>We Love To Help</span></h2>
                     <h2>Info@perfpr.com | +1-301-798-6192</h2>
-                    <img src="https://i.pinimg.com/originals/a5/2d/9b/a52d9ba54264337baa487a48141a1bcf.gif"/>
                 </div>
                     <div className="outer-form">
 

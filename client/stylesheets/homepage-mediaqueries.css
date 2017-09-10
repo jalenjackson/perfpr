@@ -1,7 +1,53 @@
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
+    .outer-form {
+        width: 50% !important;
+    }
+}
+
+
+    @media only screen and (max-width: 900px) {
     .responsive-nav {
         display: none;
     }
+
+    .outer-form {
+        width: 100% !important;
+    }
+
+        .design-circle {
+            display: none;
+        }
+
+        #c {
+            display: none !important;
+        }
+    hr {
+        margin-top:-130px !important;
+        border-bottom: 10px solid black;
+        margin-left: 40px !important;
+
+
+    }
+
+    .get-started-text {
+        position: relative !important;
+        transform: translateY(-100px) !important;
+    }
+
+    .get-started {
+        transform:translateY(-100px) !important;
+    }
+
+
+
+    hr {
+        margin-top:-130px !important;
+        border-bottom: 10px solid black;
+        margin-left: 40px !important;
+
+
+    }
+
 
 
 }
@@ -12,6 +58,11 @@
         transform: scale(0.65) translate(-100px, 10px);
         margin-left: 10px !important;
         margin: 0 !important;
+    }
+
+    .get-started-text {
+        position: relative !important;
+        transform: translateY(-100px) !important;
     }
 
     .responsive-nav {
@@ -31,6 +82,27 @@
     .button-consultation {
         margin-left: 30px !important;
     }
+    .get-started {
+        font-size:40px !important;
+    }
+
+    .outer-form {
+        width: 100% !important;
+    }
+
+    .get-started {
+        transform:translateY(-100px) !important;
+    }
+
+
+
+    hr {
+        margin-top:-130px !important;
+        border-bottom: 10px solid black;
+        margin-left: 40px !important;
+
+
+    }
 
 
 
@@ -49,6 +121,29 @@
         height: 100%;
     }
 
+    .get-started {
+        transform:translateY(-100px) !important;
+    }
+
+    #contact {
+        transform: scale(0.9) !important;
+    }
+
+
+
+    hr {
+        margin-top:-130px !important;
+        border-bottom: 10px solid black;
+        margin-left: 40px !important;
+
+
+    }
+
+    .get-started-text {
+        position: relative !important;
+        transform: translateY(-100px) !important;
+    }
+
     .bottom-message {
         width:100% !important;
     }
@@ -56,12 +151,26 @@
     nav {
         width: 100% !important;
     }
+
     .footer {
-        max-width:100% !important;
+        height: 1000px !important;
     }
+
 
     .intro {
         display: none !important;
+    }
+
+    .outer-form {
+        width: 100% !important;
+    }
+
+    hr {
+        margin-top:-130px !important;
+        border-bottom: 10px solid black;
+        margin-left: 40px !important;
+
+
     }
     
 

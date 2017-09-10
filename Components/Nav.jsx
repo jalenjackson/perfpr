@@ -7,10 +7,10 @@ import { NavLink } from 'react-router-dom'
 export default class Nav extends Component {
     render(){
         return(
-            <div >
+            <div style={{zIndex: 99999999}} >
 
                     <section>
-                        <nav style={{zIndex:"10"}} className="circle ">
+                        <nav style={{zIndex:"99999999999"}} className="circle ">
                             <ul>
                                 <img className="nav-logo" src="/images/logo.png"/>
 

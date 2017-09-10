@@ -21,8 +21,11 @@
     width: 100%;
     height:auto;
     background:white;
+    z-index: -2;
 
 }
+
+
 
 #get-started h1 {
     font-size:60px;
@@ -51,14 +54,7 @@
 
 
 
-.outer-form {
-    background:  url(https://i.pinimg.com/originals/34/73/3d/34733d6a94bdd109b295802e518d8c33.jpg) center center no-repeat;
-    background-size:cover;
-    width:60%;
-    float:right;
-    position: relative;
 
-}
 .container2 {
     width:400px;
     margin: 0 auto;
@@ -168,6 +164,7 @@ fieldset {
 
 ::-webkit-input-placeholder {
     color: #888;
+    font-size:17px;
 }
 
 :-moz-placeholder {
@@ -185,6 +182,60 @@ fieldset {
 select {
     width:107%;
     height:30px;
+}
+
+
+.get-started {
+    font-size:80px !important;
+    padding-bottom: 100px !important;
+    animation: slide-up 400ms ease-in-out forwards;
+    font-weight: bold !important;
+    font-family:Helvetica, sans-serif !important;
+    margin-top:150px !important;
+    color:black !important;
+    line-height:100px;
+
+}
+
+hr {
+    width: 100px;
+    border-bottom: 15px solid black;
+    float:left;
+    margin-top:-50px;
+    margin-left: 50px;
+}
+
+canvas {
+    position: absolute;
+    top:0px;right:100px;
+    transform: scale(2) rotate(80deg);
+}
+
+
+.design-circle {
+    position: absolute;
+    top:-100px;
+    right: -100px;
+    width:50%;
+    z-index: 0;
+    height:600px;
+    background:rgb(120,129,108);
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+
+
+.outer-form {
+    background:rgb(120,129,108);
+    background-size:cover;
+    width:60%;
+    float:right;
+    position: relative;
+    border-top: none;
+    border-right: none;
 }
 
 
