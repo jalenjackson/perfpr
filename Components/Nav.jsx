@@ -7,7 +7,18 @@ import { NavLink } from 'react-router-dom'
 export default class Nav extends Component {
     render(){
         return(
-            <div style={{zIndex: 99999999}} >
+            <div style={{zIndex: 99999999}}>
+                <div className="nav-dropdown">
+                    <h2><a href = "/">Home</a></h2>
+                    <h2><NavLink className="services-link" to="/services">Services</NavLink></h2>
+                    <h2><NavLink to="/blog">Blog</NavLink></h2>
+                    <h2><a  href="/getstarted">Get Started</a></h2>
+
+                    <i className="fa fa-times"/>
+
+                    <div className="design-color"></div>
+                </div>
+
 
                     <section>
                         <nav style={{zIndex:"99999999999"}} className="circle ">
@@ -22,6 +33,8 @@ export default class Nav extends Component {
                                 </div>
                             </ul>
                         </nav>
+
+
                         <div className="services-tab">
 
                             <div className="show">

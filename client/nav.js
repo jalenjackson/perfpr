@@ -1,5 +1,7 @@
 Meteor.startup(function() {
 
+
+
     var isHovering = false;
 
     $(".services-link, .services-tab").hover(function(){
@@ -66,6 +68,20 @@ Meteor.startup(function() {
         if(window.location.pathname === "/getstarted"){
             $("body").css({overflowY: "scroll"});
         }
+
+        $(".fa-bars").click(function(){
+           $(".nav-dropdown").addClass("show-nav-dropdown");
+            $(".design-color").show();
+            $(".fa-times").fadeIn("slow");
+        });
+
+        $(".fa-times").click(function(){
+            $(".nav-dropdown").removeClass("show-nav-dropdown");
+        });
+
+        $("a").click(function(){
+            $(".nav-dropdown").removeClass("show-nav-dropdown");
+        });
 
         $(".intro").addClass("intro-gone");
     });
