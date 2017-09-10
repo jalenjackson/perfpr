@@ -15,12 +15,12 @@ export default class GetStarted extends Component {
             <div id="get-started">
 
 
-                <div className="get-started-text parallax-scroll">
+                <div className="get-started-text">
                     <h2  className="get-started slide-left">Get <span style={{color: "rgb(118,182,83)"}}> Started </span></h2>
                     <hr/>
-                    <h1>Make Your Idea <br/> Come To Life.</h1>
-                <h2>Questions? <span style={{color: "green"}}>We Love To Help</span></h2>
-                    <h2>Info@perfpr.com | +1-301-798-6192</h2>
+                    <h1 className="parallax-scroll">Make Your Idea <br/> Come To Life.</h1>
+                <h2 className="parallax-scroll">Questions? <span style={{color: "green"}}>We Love To Help</span></h2>
+                    <h2 className="parallax-scroll">Info@perfpr.com | +1-301-798-6192</h2>
                 </div>
                     <div className="outer-form">
 
