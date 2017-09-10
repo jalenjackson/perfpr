@@ -42,11 +42,31 @@ Meteor.startup(function() {
     });
 
 
+    var isAtHome = false;
+
+
+    if(window.location.pathname === "/"){
+        isAtHome = true;
+    } else {
+        isAtHome = false;
+    }
+
+
     $(window).on("load", function(){
         setTimeout(function(){
-            $("body").css({overflowY: "scroll"});
             $(".add-slide-up").addClass("slide-up");
         },1500);
+
+        if(isAtHome) {
+            setTimeout(function () {
+                $("body").css({overflowY: "scroll"});
+            }, 3500);
+        }
+
+        if(window.location.pathname === "/getstarted"){
+            $("body").css({overflowY: "scroll"});
+        }
+
         $(".intro").addClass("intro-gone");
     });
 
