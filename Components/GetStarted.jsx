@@ -13,10 +13,11 @@ export default class GetStarted extends Component {
     render(){
         return(
             <div id="get-started">
-                
-                <h2  className="get-started slide-left">Get <span style={{color: "rgb(118,182,83)"}}> Started </span></h2>
-                <hr/>
+
+
                 <div className="get-started-text parallax-scroll">
+                    <h2  className="get-started slide-left">Get <span style={{color: "rgb(118,182,83)"}}> Started </span></h2>
+                    <hr/>
                     <h1>Make Your Idea <br/> Come To Life.</h1>
                 <h2>Questions? <span style={{color: "green"}}>We Love To Help</span></h2>
                     <h2>Info@perfpr.com | +1-301-798-6192</h2>
