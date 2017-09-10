@@ -12,7 +12,7 @@ export default class Nav extends Component {
                     <h2><a href = "/">Home</a></h2>
                     <h2><NavLink className="services-link" to="/services">Services</NavLink></h2>
                     <h2><NavLink to="/blog">Blog</NavLink></h2>
-                    <h2><a  href="/getstarted">Get Started</a></h2>
+                    <h2><NavLink to="/getstarted">Get Started</NavLink></h2>
 
                     <i className="fa fa-times"/>
 
@@ -29,7 +29,7 @@ export default class Nav extends Component {
                                     <a href="/">Home</a>
                                     <NavLink className="services-link" to="/services">Services</NavLink>
                                     <NavLink to="/blog">Blog</NavLink>
-                                    <a  href="/getstarted">Get Started</a>
+                                    <NavLink  to="/getstarted">Get Started</NavLink>
                                 </div>
                             </ul>
                         </nav>

@@ -194,8 +194,6 @@ select {
     color:black !important;
     line-height:100px;
 
-    transform: translateX(-100px) !important;
-    animation: slide-left 1s ease-in-out forwards;
 
 
 }
@@ -207,24 +205,9 @@ hr {
     margin-top:-50px;
     margin-left: 50px;
     position: relative;
-    animation: size 1s ease-in-out forwards;
 
 }
 
-
-@keyframes size {
-    0%{
-        opacity: 0;
-        transform: translate3D(-100px,0px,0);
-
-    }
-    100%{
-        opacity: 1;
-        transform: translate3D(0px,0px,0);
-
-
-    }
-}
 
 
 
@@ -256,22 +239,6 @@ hr {
 }
 
 
-
-
-@keyframes slide-left {
-    0%{
-        opacity: 0;
-        transform: translateY(50px);
-
-    }
-    90%{
-        opacity:1;
-    }
-    100%{
-        transform: translateY(0px);
-
-    }
-}
 
 
 

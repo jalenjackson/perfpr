@@ -14,7 +14,14 @@ export default class GetStarted extends Component {
         return(
             <div id="get-started">
 
-
+                <ReactCSSTransitionGroup
+                    component="div"
+                    transitionName="change"
+                    transitionEnterTimeout={6000}
+                    transitionAppearTimeout={2000}
+                    transitionLeaveTimeout={4000}
+                    transitionAppear={true}
+                >
                 <div className="get-started-text">
                     <h2  className="get-started slide-left">Get <span style={{color: "rgb(118,182,83)"}}> Started </span></h2>
                     <hr/>
@@ -22,6 +29,7 @@ export default class GetStarted extends Component {
                 <h2 className="parallax-scroll">Questions? <span style={{color: "green"}}>We Love To Help</span></h2>
                     <h2 className="parallax-scroll">Info@perfpr.com | +1-301-798-6192</h2>
                 </div>
+                </ReactCSSTransitionGroup>
                     <div className="outer-form">
 
                     <div className="container2">
