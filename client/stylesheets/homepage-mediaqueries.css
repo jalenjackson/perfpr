@@ -126,15 +126,22 @@
     }
 
     #contact {
-        transform: scale(0.9) !important;
+        transform: scale(0.7) translateX(-10px) !important;
+        margin: 0;
     }
 
+    .wrap p {
+        width:100px !important;
+        word-wrap: break-word;
+        max-width: 100px !important;
+    }
 
 
     hr {
         margin-top:-130px !important;
         border-bottom: 10px solid black;
         margin-left: 40px !important;
+
 
 
     }
@@ -172,6 +179,7 @@
 
 
     }
+
     
 
 }
