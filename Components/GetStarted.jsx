@@ -13,10 +13,7 @@ export default class GetStarted extends Component {
     render(){
         return(
             <div id="get-started">
-
-                <div className="design-circle">
-                    <div id="webgl-particle"></div>
-                </div>
+                
                 <h2  className="get-started slide-left">Get <span style={{color: "rgb(118,182,83)"}}> Started </span></h2>
                 <hr/>
                 <div className="get-started-text parallax-scroll">
