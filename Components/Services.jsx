@@ -18,7 +18,7 @@ export default class Services extends Component {
                 context = cvs.getContext("2d");
             document.getElementById("comingsoon").appendChild(cvs);
 
-            var numDots = 300,
+            var numDots = 200,
                 n = numDots,
                 currDot,
                 maxRad = 800,
