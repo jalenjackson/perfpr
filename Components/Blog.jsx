@@ -40,9 +40,7 @@ export default class Blog extends Component {
                     currDot.radiusVS = (1 - Math.random() * 2) * 0.015,
                     currDot.radiusVP = Math.random() * PI,
                     currDot.ang = (1 - Math.random() * 2) * PI;
-                currDot.speed = (0.05);
-                //currDot.speed = 1-Math.round(Math.random())*2;
-                //currDot.speed = 1;
+                currDot.speed = 0;
                 currDot.intensity = Math.round(Math.random() * 255);
                 currDot.fillColor = "rgb(" + currDot.intensity + "," + currDot.intensity + "," + currDot.intensity + ")";
                 dots.push(currDot);
@@ -78,8 +76,7 @@ export default class Blog extends Component {
                     currDot.y = _centerPt.y + Math.cos(currDot.ang) * radDiff;
 
                     //currDot.ang += currDot.speed;
-                    currDot.ang += currDot.speed * radDiff / 20000;
-
+                    currDot.ang += currDot.speed * radDiff / 210000;
                 }
 
                 var pair, dot0, dot1, dist, bright,
@@ -92,7 +89,7 @@ export default class Blog extends Component {
                     dot1 = dots[pair[1]];
                     dist = Math.pow((dot1.x - dot0.x), 2) + Math.pow((dot1.y - dot0.y), 2);
                     if (dist < maxDist) {
-                        bright = Math.round(50 * (maxDist - dist) / maxDist);
+                        bright = 22;
                         _context.beginPath();
                         _context.moveTo(dot0.x, dot0.y);
                         _context.lineTo(dot1.x, dot1.y);
