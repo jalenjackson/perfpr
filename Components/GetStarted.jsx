@@ -33,11 +33,19 @@ export default class GetStarted extends Component {
                     <div className="outer-form">
 
                     <div className="container2">
+                        <ReactCSSTransitionGroup
+                            component="div"
+                            transitionName="slide"
+                            transitionEnterTimeout={6000}
+                            transitionAppearTimeout={2000}
+                            transitionLeaveTimeout={4000}
+                            transitionAppear={true}
+                        >
                         <form id="contact" action="" method="post">
-                            <h3>How Can We Help You Grow Your Brand?</h3>
-                            <h4>You're just a few steps away from getting the most out of your online presence! Just fill out the form below and one of our amazing Digital Solution Specialists will be in touch shortly to get started!</h4>
+                            <h3 >How Can We Help You Grow Your Brand?</h3>
+                            <h4 >You're just a few steps away from getting the most out of your online presence! Just fill out the form below and one of our amazing Digital Solution Specialists will be in touch shortly to get started!</h4>
                             <fieldset>
-                                <input placeholder="Your name" type="text" tabIndex="1" required autoFocus/>
+                                <input placeholder="Your name" type="text" tabIndex="1" required />
                             </fieldset>
                             <fieldset>
                                 <input placeholder="Your Email Address" type="email" tabIndex="2" required/>
@@ -68,6 +76,7 @@ export default class GetStarted extends Component {
                             </fieldset>
                             <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
                     </form>
+                        </ReactCSSTransitionGroup>
                     </div>
                     </div>
 

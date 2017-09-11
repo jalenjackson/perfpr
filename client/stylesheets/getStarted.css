@@ -72,7 +72,8 @@
 }
 
 #contact {
-    background: #F9F9F9;
+    background: rgb(31,31,31);
+    color:white !important;
     padding: 25px;
     margin: 150px 0;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -107,8 +108,8 @@ fieldset {
 #contact input[type="url"],
 #contact textarea {
     width: 100%;
-    border: 1px solid #ccc;
-    background: #FFF;
+    border: 1px solid rgb(61,61,61);
+    background: rgb(61,61,61);
     margin: 0 0 5px;
     padding: 10px;
 }
@@ -182,6 +183,9 @@ fieldset {
 select {
     width:107%;
     height:30px;
+    background:rgb(61,61,61);
+    color:white;
+    border:none;
 }
 
 
@@ -229,8 +233,7 @@ hr {
 
 
 .outer-form {
-    background:rgb(120,129,108);
-    background-size:cover;
+
     width:60%;
     float:right;
     position: relative;
@@ -238,6 +241,24 @@ hr {
     border-right: none;
 }
 
+.outer-form:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: -1;
+    background-color:black;
+    background:url(https://assets.awwwards.com/awards/sites_of_the_day/2017/09/Heartbeat-Agency-cover.jpg) center center no-repeat;
+    filter: invert(100%);
+    background-size:cover;
+    -webkit-filter: invert(100%);
+}
+
+#contact {
+    filter: invert(0%) !important;
+}
 
 
 
