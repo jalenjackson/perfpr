@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49ad2a8c-62bd-4979-a631-6e24b8aca273" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Components/Blog.jsx" afterPath="$PROJECT_DIR$/Components/Blog.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Components/Design.jsx" afterPath="$PROJECT_DIR$/Components/Design.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Components/Development.jsx" afterPath="$PROJECT_DIR$/Components/Development.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Components/Services.jsx" afterPath="$PROJECT_DIR$/Components/Services.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Components/Strategy.jsx" afterPath="$PROJECT_DIR$/Components/Strategy.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/intro.css" afterPath="$PROJECT_DIR$/client/stylesheets/intro.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Strategy.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Strategy.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Components/Strategy.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -51,33 +47,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetStarted.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Components/GetStarted.jsx">
+      <file leaf-file-name="intro.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/stylesheets/intro.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/stylesheets/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+            <state relative-caret-position="274">
+              <caret line="13" column="85" lean-forward="false" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coming-soon.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/coming-soon.js">
+      <file leaf-file-name="HomePage.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/stylesheets/HomePage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="418">
+              <caret line="268" column="11" lean-forward="false" selection-start-line="268" selection-start-column="11" selection-end-line="268" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage-mediaqueries.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/stylesheets/homepage-mediaqueries.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="135" column="29" lean-forward="false" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -191,7 +185,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.meteor/packages" />
         <option value="$PROJECT_DIR$/Components/AdminBlog.jsx" />
-        <option value="$PROJECT_DIR$/client/stylesheets/intro.css" />
         <option value="$PROJECT_DIR$/Components/Intro.jsx" />
         <option value="$PROJECT_DIR$/Components/WebGlHeader.jsx" />
         <option value="$PROJECT_DIR$/client/App.jsx" />
@@ -217,6 +210,7 @@
         <option value="$PROJECT_DIR$/Components/Development.jsx" />
         <option value="$PROJECT_DIR$/Components/Services.jsx" />
         <option value="$PROJECT_DIR$/Components/Strategy.jsx" />
+        <option value="$PROJECT_DIR$/client/stylesheets/intro.css" />
       </list>
     </option>
   </component>
@@ -456,12 +450,12 @@
       <workItem from="1504516849414" duration="10821000" />
       <workItem from="1504598531324" duration="4204000" />
       <workItem from="1505025820122" duration="13877000" />
-      <workItem from="1505157932921" duration="2190000" />
+      <workItem from="1505157932921" duration="2343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113286000" />
+    <option name="totallyTimeSpent" value="113439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -597,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/intro.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/get-started-particle.js" />
     <entry file="file://$PROJECT_DIR$/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -642,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/HomePage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="268" column="16" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Components/Nav.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="593">
@@ -668,14 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/homepage-mediaqueries.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="135" column="29" lean-forward="false" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -797,6 +769,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/HomePage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="268" column="11" lean-forward="false" selection-start-line="268" selection-start-column="11" selection-end-line="268" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/homepage-mediaqueries.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="135" column="29" lean-forward="false" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/intro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="13" column="85" lean-forward="false" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
           <folding />
         </state>
       </provider>

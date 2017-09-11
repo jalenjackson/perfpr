@@ -11,7 +11,7 @@
     color:white;
     text-align: center;
     margin-top:100px;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(120,185,84), 0 0 35px rgb(120,185,84), 0 0 40px rgb(120,185,84), 0 0 50px rgb(120,185,84), 0 0 75px rgb(120,185,84);
 }
 
 
