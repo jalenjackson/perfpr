@@ -16,7 +16,7 @@ export default class Blog extends Component {
                 context = cvs.getContext("2d");
             document.getElementById("comingsoon").appendChild(cvs);
 
-            var numDots = 200,
+            var numDots = 300,
                 n = numDots,
                 currDot,
                 maxRad = 800,
