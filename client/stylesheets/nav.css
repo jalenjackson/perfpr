@@ -416,9 +416,35 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     font-weight: bold;
     margin-left:40px;
     transform: translateY(50px);
-    animation: a-go-up 500ms ease-in-out forwards;
     transition: all 400ms ease-in-out;
     z-index: 99999999999999;
+}
+
+.hidden-text {
+    transition: all 300ms ease-in-out;
+    transform: translateY(-1000px);
+}
+
+.show-text {
+    animation: showhidden 500ms ease-in-out forwards;
+}
+
+@keyframes showhidden {
+    0%{
+        display: none;
+        transform: translateY(-1000px);
+    }
+    10%{
+        display: block;
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-350px);
+    }
 }
 
 a {
@@ -468,4 +494,8 @@ a {
     top:-100px;
     right: -1200px;
     z-index: -1;
+}
+
+.move-away {
+    opacity: 0 !important;
 }

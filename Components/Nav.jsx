@@ -9,10 +9,20 @@ export default class Nav extends Component {
         return(
             <div style={{zIndex: 99999999}}>
                 <div className="nav-dropdown">
-                    <h2><a href = "/">Home</a></h2>
-                    <h2><NavLink className="services-link" to="/services">Services</NavLink></h2>
-                    <h2><NavLink to="/blog">Blog</NavLink></h2>
-                    <h2><NavLink to="/getstarted">Get Started</NavLink></h2>
+                    <h2 className="slide-away"><a href = "/">Home</a></h2>
+                    <h2 className="mobile-services slide-away">Services</h2>
+                    <h2 className="slide-away"><NavLink to="/blog">Blog</NavLink></h2>
+                    <h2 className="slide-away"><NavLink to="/getstarted">Get Started</NavLink></h2>
+
+
+                    <div className="hidden-text">
+                    <h2><i className="fa fa-arrow-left"/></h2>
+                    <h2><NavLink to="/design">Design</NavLink></h2>
+                    <h2><NavLink to="/strategy">Strategy</NavLink></h2>
+                    <h2><NavLink to="/development">Development</NavLink></h2>
+                    </div>
+
+
 
                     <i className="fa fa-times"/>
 
@@ -27,7 +37,7 @@ export default class Nav extends Component {
 
                                 <div className="container red topBotomBordersOut responsive-nav">
                                     <a href="/">Home</a>
-                                    <NavLink className="services-link" to="/services">Services</NavLink>
+                                    <a className="services-link">Services</a>
                                     <NavLink to="/blog">Blog</NavLink>
                                     <NavLink  to="/getstarted">Get Started</NavLink>
                                 </div>

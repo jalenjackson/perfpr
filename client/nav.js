@@ -79,8 +79,20 @@ Meteor.startup(function() {
             $(".nav-dropdown").removeClass("show-nav-dropdown");
         });
 
+        $(".mobile-services").click(function(){
+            $(".slide-away").css("transform","translate(-1000px, 50px)");
+            $(".hidden-text").css("transform", "translateY(-350px)");
+        });
+
+        $(".fa-arrow-left").click(function(){
+            $(".hidden-text").css("transform", "translateY(-1000px)");
+            $(".slide-away").css("transform","translate(0px, 50px)");
+        });
+
         $("a").click(function(){
-            $(".nav-dropdown").removeClass("show-nav-dropdown");
+
+                $(".nav-dropdown").removeClass("show-nav-dropdown");
+
         });
 
         $(".intro").addClass("intro-gone");
