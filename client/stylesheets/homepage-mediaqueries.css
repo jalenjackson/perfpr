@@ -159,8 +159,28 @@
         background-position: 0 0 !important;
     }
 
+    .quick h1 {
+        font-size: 15px !important;
+        margin-top:16px !important;
+    }
 
 
+    .bottom-quick-links {
+        height: 50px;
+    }
+
+    .development-header {
+        height: 1020px !important;
+    }
+
+    .development-pin-container {
+        margin-top:410px !important;
+    }
+
+    .development-info p {
+        font-size:12px !important;
+        width:300px !important;
+    }
 
 }
 
@@ -168,12 +188,33 @@
     .nav-dropdown h2 {
         font-size:20px !important;
     }
+    .development-pin-container {
+        margin-top:410px !important;
+    }
     .h1-intro {
         font-size:20px !important;
     }
 
+    .development-info p {
+        font-size:12px !important;
+        width:300px !important;
+    }
+
     .nav-dropdown h2 {
         font-size:24px !important;
+    }
+
+    .development-header {
+        height: 1020px !important;
+    }
+
+    .quick h1 {
+        font-size: 15px !important;
+        margin-top:16px !important;
+    }
+
+    .bottom-quick-links {
+        height: 50px;
     }
 
     html, body {
@@ -286,6 +327,20 @@
         margin-top: 260px;
         margin-left: 0px !important;
 
+    }
+
+    .development-pin-container {
+        margin-top:280px !important;
+    }
+
+    .development-info p {
+        font-size:10px !important;
+        width:300px !important;
+        margin-left:10px !important;
+    }
+    .development-info h1 {
+        margin-left: 10px !important;
+        font-size: 25px !important;
     }
     .pin{
         width: 130px !important;

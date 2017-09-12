@@ -1,10 +1,13 @@
 import React, {Component} from 'react'
 import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
 import Footer from "./Footer";
+import { NavLink } from 'react-router-dom'
 
 
 export default class Design extends Component {
-
+    componentDidMount(){
+        window.scrollTo(0,0);
+    }
 
 
     render(){
@@ -28,7 +31,7 @@ export default class Design extends Component {
                         transitionLeaveTimeout={4000}
                         transitionAppear={true}
                     >
-                    <div className="design-info">
+                    <div className="design-info ">
                         <h1>Visual <span style={{color: "rgb(118,182,83)"}}>Design</span></h1>
                         <p>Tie It All Together And Put a Nice Bow On It!</p>
                     </div>
@@ -74,6 +77,21 @@ export default class Design extends Component {
 
                 </div>
 
+                <div className="bottom-quick-links">
+                    <div className="quick-link-1 quick">
+                        <h1><span style={{color: "rgb(118,182,83)"}}>Design</span></h1>
+                    </div>
+                    <NavLink to="/strategy">
+                    <div className="quick-link-2 quick">
+                        <h1>Strategy</h1>
+                    </div>
+                    </NavLink>
+                    <NavLink to="/development">
+                    <div className="quick-link-3 quick">
+                        <h1>Development</h1>
+                    </div>
+                    </NavLink>
+                </div>
 
                 <Footer/>
 
