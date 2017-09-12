@@ -411,6 +411,27 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 .slide-away{
 }
 
+a {
+    color: black !important;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:black !important;
+    text-decoration:none;
+    cursor:pointer;
+}
+a:link{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: black;
+}
+
 .nav-dropdown h2 {
     font-size:40px;
     color:black;
