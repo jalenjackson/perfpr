@@ -1,61 +1,230 @@
-.quick-links {
-    width: 100%;
-    height: 100px;
-    white-space: nowrap;
-    background-size: cover;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-
-    display: none;
-}
-
-.quick-link-img {
-    width: 33.3%;
-    height: 100px;
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    transition: all 300ms ease-in-out;
-    box-shadow: 0 0 20px 0 rgba(0, 200, 0, 0.2), 0 5px 5px 0 rgba(0, 200, 0, 0.24);
-
-}
-
-.quick-link-img:hover{
-
-    z-index: 9999;
-}
-
-.quick-link-img h4 {
-    text-align:center;
-    margin-top:30px;
-    font-family:Roboto, sans-serif;
-    font-weight: 100;
-    font-size:30px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    color:white;
+#design-page {
+    background:black;
 }
 
 .design-header {
     width: 100%;
-    height: 400px;
-    background:red;
+    height: 600px;
+    background-size: cover;
     margin-top:-18px;
+    overflow: hidden;
+    z-index: -200;
+    background:url(https://openclipart.org/download/220791/Pop-Art-Female-Face.svg) center center no-repeat;
+    background-position: 350px -770px;
+    filter: grayscale(100%);
+    transition: all 600ms ease-in-out;
+
 }
+
+
+
+
 
 .design-info {
     position: absolute;
+    filter: grayscale(0%) !important;
 }
+
+
+
+
+
 
 .design-info h1 {
     font-weight: 100;
-    font-size:40px;
-    font-family: Roboto, sans-serif;
-    margin-top:50px;
-    margin-left:50px;
+    font-size:50px;
+    font-family: Helvetica, sans-serif;
+    margin-top:80px;
+    margin-left:130px;
+    color:white;
+
 
 }
 
 .design-info p {
-    margin-left: 50px;
+    font-weight: 100;
+    font-size:18px;
+    font-family: Roboto, sans-serif;
+    margin-top:50px;
+    margin-left:140px;
+    color:white;
+    font-weight: 100;
+}
+
+
+.pin {
+    display: inline-block;
+    width:200px;
+    height:300px;
+    background:rgba(255,255,255,0.8);
+    margin-left: 20px;
+    margin-top:240px;
+    border-radius: .2em;
+    overflow: hidden;
+    position: relative;
+    opacity: 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+
+}
+
+.move-pin {
+    animation: opac3 500ms ease-in-out forwards;
+}
+
+
+
+@keyframes opac3 {
+    0%{
+        opacity:0;
+        transform: translate3D(500px,0px,0);
+
+    }
+    100%{
+        opacity:1;
+        transform: translate3D(0,0,0);
+
+    }
+}
+
+.pin-container {
+    width:100%;
+    margin-left: 130px;
+}
+
+.pin-container img {
+    width: 100%;
+    height:150px;
+
+}
+
+.green-overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 150px;
+    background: rgba(0,200,0,0.5);
+}
+
+.pin h1 {
+    font-size:20px;
+    color: rgb(31,31,31);
+    margin-left: 10px;
+    font-family: Helvetica,sans-serif;
+    font-weight: 100;
+}
+
+.pin p {
+    font-size:13px;
+    color: rgb(31,31,31);
+    margin-left: 10px;
+    font-family: Helvetica,sans-serif;
+    font-weight: 100;
+}
+
+.design-img-div {
+    width: 100%;
+    height: 150px;
+
+}
+
+.design-div-1 {
+    background: linear-gradient(rgba(0,0,0,0.3), black) , url(https://careerfoundry.com/en/blog/difference-between-ux-ui-ux-ui-min-6cd3a171087987d31ecdb67ad67c0ab8136242f7b4e476a0e509017aa8bbc755.png) center center no-repeat;
+    background-size: cover;
+
+}
+
+.design-div-2 {
+    background: linear-gradient(rgba(0,0,0,0.3), black) , url(https://arobil.com/wp-content/uploads/2017/08/Proper-Branding.png) center center no-repeat;
+    background-size: cover;
+
+}
+
+.design-div-3 {
+    background: linear-gradient(rgba(0,0,0,0.3), black) , url(https://law.yale.edu/system/files/area/center/global/media-wall-1600x700_c.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+.design-div-4 {
+    background:linear-gradient(rgba(0,0,0,0.3), black) , url(https://revpart.com/wp-content/uploads/2015/07/rapid-prototyping-production-process-web-e1436888737664.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+
+.design-message {
+    width: 100%;
+    height:350px;
+    background:rgba(120,129,108, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.design-message p {
+    font-size:60px;
+    text-align:center;
+    font-weight: 100;
+    color:white;
+    transform: translateY(50px);
+    font-family: Roboto, sans-serif;
+}
+
+.design-button {
+    transform: translateY(50px);
+    opacity: 1 !important;
+    margin: 0 auto !important;
+    display: block;
+    overflow: hidden;
+}
+
+.design-button::after{
+    transition: all 300ms ease-in-out;
+    content: "";
+    display: block;
+    position: absolute;
+    top:0;
+    width:0%;
+    height: 100%;
+    background:rgba(255,255,255,0.4);
+}
+
+.design-button:hover::after {
+    animation: pulse 400ms ease-in-out;
+}
+
+@keyframes pulse {
+    0%{
+        left: 0;
+
+        width: 0%;
+    }
+
+    50%{
+        width: 100%;
+        right: 0;
+    }
+    100%{
+        right: 0;
+
+        width: 0%;
+
+    }
+}
+
+
+.circle-div {
+    position: absolute;
+    top:-100px;
+    right: -300px;
+    width:1000px;
+    height: 1000px;
+    background:rgba(32, 48, 32,0.6);
+    z-index: 0;
+    transform: rotate(30deg);
+}
+
+section {
+    font-weight: 100 !important;
 }
