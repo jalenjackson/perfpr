@@ -411,24 +411,24 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 .slide-away{
 }
 
-a {
+.nav-dropdown a {
     color: black !important;
     text-decoration: none;
 }
 
-a:hover
+.nav-dropdown a:hover
 {
     color:black !important;
     text-decoration:none;
     cursor:pointer;
 }
-a:link{
+.nav-dropdown a:link{
     color: black;
 }
-a:hover{
+.nav-dropdown a:hover{
     color: black;
 }
-a:active{
+.nav-dropdown a:active{
     color: black;
 }
 
