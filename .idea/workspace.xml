@@ -4,6 +4,7 @@
     <list default="true" id="49ad2a8c-62bd-4979-a631-6e24b8aca273" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Components/Nav.jsx" afterPath="$PROJECT_DIR$/Components/Nav.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/nav.js" afterPath="$PROJECT_DIR$/client/nav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/homepage-mediaqueries.css" afterPath="$PROJECT_DIR$/client/stylesheets/homepage-mediaqueries.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/nav.css" afterPath="$PROJECT_DIR$/client/stylesheets/nav.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,23 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Design.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Components/Design.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="72" column="59" lean-forward="true" selection-start-line="72" selection-start-column="59" selection-end-line="72" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="homepage-mediaqueries.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/stylesheets/homepage-mediaqueries.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="74" column="9" lean-forward="false" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+            <state relative-caret-position="336">
+              <caret line="175" column="20" lean-forward="false" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -61,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nav.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="87" column="60" lean-forward="false" selection-start-line="87" selection-start-column="60" selection-end-line="87" selection-end-column="60" />
+            <state relative-caret-position="577">
+              <caret line="101" column="69" lean-forward="false" selection-start-line="101" selection-start-column="69" selection-end-line="101" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -81,11 +70,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Nav.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getStarted.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/stylesheets/getStarted.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1229">
+              <caret line="78" column="17" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webglheader.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/stylesheets/webglheader.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="124" column="10" lean-forward="false" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nav.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Components/Nav.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="339">
+              <caret line="21" column="145" lean-forward="false" selection-start-line="21" selection-start-column="145" selection-end-line="21" selection-end-column="145" />
               <folding />
             </state>
           </provider>
@@ -94,8 +103,8 @@
       <file leaf-file-name="nav.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/stylesheets/nav.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="423" column="21" lean-forward="false" selection-start-line="423" selection-start-column="21" selection-end-line="423" selection-end-column="21" />
+            <state relative-caret-position="198">
+              <caret line="411" column="0" lean-forward="false" selection-start-line="411" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,21 +120,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getStarted.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/getStarted.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>b</find>
       <find>pic-tab</find>
       <find>outer</find>
       <find>canvas</find>
@@ -153,8 +151,9 @@
       <find>design-info</find>
       <find>classNameName</find>
       <find>message</find>
-      <find>box</find>
       <find>nav-drop</find>
+      <find>box</find>
+      <find>.slide</find>
     </findStrings>
     <replaceStrings>
       <replace>className</replace>
@@ -211,9 +210,9 @@
         <option value="$PROJECT_DIR$/client/stylesheets/design.css" />
         <option value="$PROJECT_DIR$/Components/Design.jsx" />
         <option value="$PROJECT_DIR$/client/stylesheets/homepage-mediaqueries.css" />
-        <option value="$PROJECT_DIR$/client/nav.js" />
         <option value="$PROJECT_DIR$/client/stylesheets/nav.css" />
         <option value="$PROJECT_DIR$/Components/Nav.jsx" />
+        <option value="$PROJECT_DIR$/client/nav.js" />
       </list>
     </option>
   </component>
@@ -471,12 +470,12 @@
       <workItem from="1504516849414" duration="10821000" />
       <workItem from="1504598531324" duration="4204000" />
       <workItem from="1505025820122" duration="13877000" />
-      <workItem from="1505157932921" duration="21429000" />
+      <workItem from="1505157932921" duration="22963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132525000" />
+    <option name="totallyTimeSpent" value="134059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -672,14 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/webglheader.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="126" column="16" lean-forward="false" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Components/Footer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -708,14 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/getStarted.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="78" column="17" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -782,14 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/homepage-mediaqueries.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="74" column="9" lean-forward="false" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Components/WebGlHeader.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -814,26 +789,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/nav.js">
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/getStarted.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="87" column="60" lean-forward="false" selection-start-line="87" selection-start-column="60" selection-end-line="87" selection-end-column="60" />
+        <state relative-caret-position="-1229">
+          <caret line="78" column="17" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/webglheader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="124" column="10" lean-forward="false" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/homepage-mediaqueries.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="175" column="20" lean-forward="false" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/stylesheets/nav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="423" column="21" lean-forward="false" selection-start-line="423" selection-start-column="21" selection-end-line="423" selection-end-column="21" />
+        <state relative-caret-position="198">
+          <caret line="411" column="0" lean-forward="false" selection-start-line="411" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Components/Nav.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="339">
+          <caret line="21" column="145" lean-forward="false" selection-start-line="21" selection-start-column="145" selection-end-line="21" selection-end-column="145" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="101" column="69" lean-forward="false" selection-start-line="101" selection-start-column="69" selection-end-line="101" selection-end-column="69" />
           <folding />
         </state>
       </provider>

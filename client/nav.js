@@ -73,15 +73,19 @@ Meteor.startup(function() {
            $(".nav-dropdown").addClass("show-nav-dropdown");
             $(".design-color").show();
             $(".fa-times").fadeIn("slow");
+            $(".slide-away").css("transform","translate(0px, 50px)");
         });
 
         $(".fa-times").click(function(){
+            $(".slide-away").css("transform","translate(-1000px, 50px)");
             $(".nav-dropdown").removeClass("show-nav-dropdown");
+            $(".hidden-text").css("transform", "translateY(-1000px)");
+            $(".slide-away").css("transform","translate(0px, 50px)");
         });
 
         $(".mobile-services").click(function(){
             $(".slide-away").css("transform","translate(-1000px, 50px)");
-            $(".hidden-text").css("transform", "translateY(-350px)");
+            $(".hidden-text").css("transform", "translateY(-420px)");
         });
 
         $(".fa-arrow-left").click(function(){
@@ -92,6 +96,10 @@ Meteor.startup(function() {
         $("a").click(function(){
 
                 $(".nav-dropdown").removeClass("show-nav-dropdown");
+            $(".slide-away").css("transform","translate(-1000px, 50px)");
+            $(".nav-dropdown").removeClass("show-nav-dropdown");
+            $(".hidden-text").css("transform", "translateY(-1000px)");
+            $(".slide-away").css("transform","translate(0px, 50px)");
 
         });
 

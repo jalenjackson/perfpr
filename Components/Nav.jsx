@@ -9,17 +9,17 @@ export default class Nav extends Component {
         return(
             <div style={{zIndex: 99999999}}>
                 <div className="nav-dropdown">
-                    <h2 className="slide-away"><a href = "/">Home</a></h2>
-                    <h2 className="mobile-services slide-away">Services</h2>
-                    <h2 className="slide-away"><NavLink to="/blog">Blog</NavLink></h2>
-                    <h2 className="slide-away"><NavLink to="/getstarted">Get Started</NavLink></h2>
+                    <h2 className="slide-away"><a href = "/"> <img src="images/house.png"/> Home   </a> </h2>
+                    <h2 className="mobile-services slide-away"> <img src="https://www.shareicon.net/data/512x512/2015/10/07/113661_tools_512x512.png"/>  Services</h2>
+                    <h2 className="slide-away"><NavLink to="/blog"> <img src="https://cdn1.iconfinder.com/data/icons/basic-ui-elements-color/700/08_comment-512.png"/>  Blog</NavLink></h2>
+                    <h2 className="slide-away"><NavLink to="/getstarted"> <img src="https://lh5.ggpht.com/8h4a-QzLFHu3pxFZ-Np8AyyUCq1G97T1_7F3ScjbBaxb6wGSdoCLHanFtnQa9kbg0d4=w300"/>  Get Started</NavLink></h2>
 
 
                     <div className="hidden-text">
                     <h2><i className="fa fa-arrow-left"/></h2>
-                    <h2><NavLink to="/design">Design</NavLink></h2>
-                    <h2><NavLink to="/strategy">Strategy</NavLink></h2>
-                    <h2><NavLink to="/development">Development</NavLink></h2>
+                    <h2><NavLink to="/design"><img src="https://orig12.deviantart.net/2949/f/2015/274/3/1/code_flat_icon_by_foxinflame-d9bkady.png"/> Design</NavLink></h2>
+                    <h2><NavLink to="/strategy"><img src="https://image.flaticon.com/icons/png/512/262/262832.png"/> Strategy</NavLink></h2>
+                    <h2><NavLink to="/development"><img src="https://cdn2.iconfinder.com/data/icons/classic-development-circle/512/system-512.png"/> Development</NavLink></h2>
                     </div>
 
 
