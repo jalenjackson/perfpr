@@ -13,11 +13,11 @@ $(window).scroll(function(){
     }
 
     if(wScroll > 20){
-        $(".design-header").css({
+        $(".design1").css({
             "backgroundPosition":'250px -600px'
         });
     } else {
-        $(".design-header").css({
+        $(".design1").css({
             "backgroundPosition":'350px -770px'
         });
     }

@@ -19,7 +19,7 @@ export default class Design extends Component {
 
 
 
-                <div className="design-header">
+                <div className=" design1 design-header">
 
 
 

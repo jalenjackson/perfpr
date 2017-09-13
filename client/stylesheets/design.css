@@ -2,7 +2,7 @@
     background:black;
 }
 
-.design-header {
+.design1 {
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -16,6 +16,29 @@
 
 }
 
+.strategy-header {
+    width: 100%;
+    height: 600px;
+    background:url(https://cdn.securelist.com/files/2017/06/industrial.jpg) center center no-repeat;
+    background-size: cover;
+    margin-top:-18px;
+    background-attachment: fixed;
+    overflow: hidden;
+    z-index: -200;
+    transition: all 600ms ease-in-out;
+}
+
+.development-header {
+    width: 100%;
+    height: 600px;
+    background:url(https://cdn.lynda.com/course/520220/520220-636136853521823826-16x9.jpg) center center no-repeat;
+    background-size: cover;
+    margin-top:-18px;
+    background-attachment: fixed;
+    overflow: hidden;
+    z-index: -200;
+    transition: all 600ms ease-in-out;
+}
 
 
 
@@ -152,6 +175,8 @@
     background-size: cover;
 
 }
+
+
 
 
 .design-message {

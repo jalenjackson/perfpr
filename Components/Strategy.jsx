@@ -19,7 +19,7 @@ export default class Strategy extends Component {
 
 
 
-                <div className="design-header">
+                <div className="strategy-header" >
 
 
 
@@ -32,8 +32,8 @@ export default class Strategy extends Component {
                         transitionAppear={true}
                     >
                         <div className="design-info">
-                            <h1>Digital <span style={{color: "rgb(118,182,83)"}}>Strategy</span></h1>
-                            <p>Drive revenue to your brand with gaining attention in the experience market.</p>
+                            <h1 style={{color:"white"}}><span style={{background: "black"}}>Digital Strategy</span></h1>
+                            <p style={{color: "white"}}><span style={{background: "black"}}>Drive revenue to your brand with gaining attention in the experience market.</span></p>
                         </div>
                     </ReactCSSTransitionGroup>
 
@@ -43,26 +43,26 @@ export default class Strategy extends Component {
                     <div className="pin-container">
                         <div className="pin move-pin">
 
-                            <div className="design-img-div design-div-1">
+                            <div className="design-img-div strategy-div-1">
                             </div>
                             <h1>Social Media</h1>
                             <p>Community Interaction</p>
                         </div>
                         <div style={{animationDelay: "0.2s"}} className="pin move-pin">
-                            <div className="design-img-div design-div-2">
+                            <div className="design-img-div strategy-div-2">
                             </div>
                             <h1>Product Strategy</h1>
                             <p>Plan your dream product</p>
                         </div>
                         <div style={{animationDelay: "0.4s"}} className="pin move-pin">
-                            <div className="design-img-div design-div-3">
+                            <div className="design-img-div strategy-div-3">
                             </div>
 
                             <h1>Industry Research</h1>
                             <p>Learn what your audience thinks</p>
                         </div>
                         <div style={{animationDelay: "0.6s"}} className="pin move-pin">
-                            <div className="design-img-div design-div-4">
+                            <div className="design-img-div strategy-div-4">
                             </div>
                             <h1>Market Testing</h1>
                             <p>Test how the market will react</p>
