@@ -1,0 +1,207 @@
+.what-we-do {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top:80px;
+}
+
+#about-page {
+    position: absolute;
+    background: rgb(245,245,245);
+    width: 100%;
+    height:auto;
+}
+
+.smaller {
+    font-size:9px;
+    font-family: Helvetica,sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold !important;
+}
+
+.smaller span {
+    border-bottom: 3px solid rgb(31,31,31);
+    padding-bottom: 3px;
+}
+
+.smaller span::after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 5px;
+    width:0;
+    transition: all 400ms ease-in-out;
+    bottom: -5px;
+    left: 0;
+    background:white;
+}
+
+.what-we-do h1 {
+    font-family:Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    font-size:27px;
+
+
+}
+
+.what-we-do p {
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgb(51,51,51);
+    line-height: 33px;
+
+}
+
+.what-we-do h2 span {
+    border-bottom: 3px solid rgb(31,31,31);
+    font-family: Helvetica, sans-serif;
+    font-size:14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+
+
+}
+
+.what-we-do h2 span:hover::after {
+    width: 100%;
+}
+
+.what-we-do h2 span::after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 5px;
+    width:0;
+    transition: all 400ms ease-in-out;
+    bottom: -5px;
+    left: 0;
+    background:white;
+}
+
+
+.how-it-works {
+    margin-top:100px;
+}
+
+.video {
+    width: 100%;
+    height: 400px;
+
+
+    overflow: hidden;
+    position: relative;
+    margin-top:70px;
+
+    background:Red;
+    transition: all 500ms ease-in-out;
+
+}
+
+.video-size {
+    animation: video-size 500ms ease-in-out forwards;
+
+}
+
+@keyframes video-size {
+    0%{
+        height: 400px;
+        transform: scale(0.9);
+        position: fixed;
+        z-index:999999;
+        top:0;
+        left:0;
+        height: 400px;
+        margin-top:0;
+    }
+    50%{
+        position: fixed;
+        z-index:999999;
+        top:0;
+        left:0;
+        height: 100%;
+        margin-top:0;
+
+    }
+    100%{
+        position: fixed;
+        z-index:999999;
+        top:0;
+        left:0;
+        margin-top:0;
+        height: 100%;
+        transform: scale(1);
+    }
+}
+
+.header-message {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-weight:bold;
+    font-size:29px;
+    font-family: Helvetica, sans-serif;
+    line-height: 53px;
+    transition: all 500ms ease-in-out;
+
+}
+
+.smaller2 {
+    margin-left: 80px;
+    transform:translateY(50px);
+}
+
+.play-button {
+    width:123px;
+    height: 123px;
+    background:white;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(130px);
+    position: relative;
+    text-align: center;
+    z-index:999999;
+    transition: all;
+    cursor: pointer;
+
+}
+
+.play-button p {
+    font-weight: bold;
+    font-family:Helvetica, sans-serif;
+    font-size:12px;
+    transform: translateY(52px);
+
+
+
+}
+
+.video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+
+.video-overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index:2;
+    background:rgba(0,255,0,0.3);
+}
+
+.video:hover {
+    transform: scale(0.9);
+}
+
