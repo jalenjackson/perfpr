@@ -55,6 +55,11 @@ Meteor.startup(function() {
 
 
     $(window).on("load", function(){
+
+        $(".mailchimp").click(function(){
+            window.location.href = "http://eepurl.com/ccIqGb";
+        });
+
         setTimeout(function(){
             $(".add-slide-up").addClass("slide-up");
         },2500);

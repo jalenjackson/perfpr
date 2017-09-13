@@ -73,7 +73,7 @@ export default class Design extends Component {
                 <div className="design-message">
                     <div className="circle-div"></div>
                     <p className="parallax-scroll ">Let your <span style={{color: "rgb(118,182,83)"}}> creativity </span> prosper</p>
-                    <button className="button-consultation design-button" >Start Today</button>
+                    <NavLink to="/getstarted">  <button className="button-consultation design-button" >Start Today</button> </NavLink>
 
                 </div>
 

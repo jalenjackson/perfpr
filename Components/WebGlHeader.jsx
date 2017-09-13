@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import Intro from './Intro'
+import { NavLink } from 'react-router-dom'
+
 
 export default class WebGlHeader extends Component {
     render(){
@@ -14,7 +16,7 @@ export default class WebGlHeader extends Component {
                             Get all the resources for your idea all in one place!
                         </p>
 
-                        <button className="button-consultation add-slide-up" style={{animationDelay: "0.9s"}}>Schedule My Consultation Today</button>
+                        <NavLink to="/getstarted"> <button className="button-consultation add-slide-up" style={{animationDelay: "0.9s"}}>Schedule My Consultation Today</button> </NavLink>
                     </div>
                 </div>
 

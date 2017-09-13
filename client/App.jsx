@@ -10,6 +10,7 @@ import Development from '../Components/Development'
 import Strategy from '../Components/Strategy'
 import Intro from '../Components/Intro'
 import AdminBlog from '../Components/AdminBlog'
+import About from '../Components/About'
 
 
 
@@ -24,6 +25,7 @@ export default class App extends Component {
                     <Nav/>
                     <Route exact path='/' component={WebGlHeader} />
                     <Route exact path='/' component={HomePage} />
+                    <Route exact path='/about' component={About} />
 
                     <Route exact path='/blog' component={Blog} />
                     <Route exact path='/getstarted' component={GetStarted} />

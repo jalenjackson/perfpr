@@ -212,7 +212,7 @@
     top:0;
     width:0%;
     height: 100%;
-    background:rgba(255,255,255,0.4);
+    background:rgba(205,255,205,0.4);
 }
 
 .design-button:hover::after {
@@ -286,4 +286,21 @@ section {
     margin-top: 30px;
     font-family: Helvetica, sans-serif;
     font-weight: 100;
+}
+
+
+
+#mc_embed_signup {
+    clear:left;
+    font:14px Helvetica,Arial,sans-serif;
+    top:500px;
+    background:white;
+    text-align:center;
+    z-index: 9999999;
+    margin: 0 auto !important;
+    display: block !important;
+    right: 0;
+    left: 0;
+    float: none !important;
+
 }

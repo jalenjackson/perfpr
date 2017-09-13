@@ -37,6 +37,7 @@ export default class Nav extends Component {
 
                                 <div className="container red topBotomBordersOut responsive-nav">
                                     <a href="/">Home</a>
+                                    <NavLink to="/about">About</NavLink>
                                     <a className="services-link">Services</a>
                                     <NavLink to="/blog">Blog</NavLink>
                                     <NavLink  to="/getstarted">Get Started</NavLink>
