@@ -23,6 +23,7 @@ export default class Footer extends Component {
 
                             <h5 style={{color:"white"}}>Our Site</h5>
                             <a href="/">Home</a>
+                            <NavLink to="/about">About</NavLink>
                             <NavLink to="/blog">Blog</NavLink>
                             <NavLink to="/design">Design</NavLink>
                             <NavLink to="/strategy">Strategy</NavLink>

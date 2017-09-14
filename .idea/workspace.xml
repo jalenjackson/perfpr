@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49ad2a8c-62bd-4979-a631-6e24b8aca273" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Components/Blog.jsx" afterPath="$PROJECT_DIR$/Components/Blog.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Components/Footer.jsx" afterPath="$PROJECT_DIR$/Components/Footer.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Components/WebGlHeader.jsx" afterPath="$PROJECT_DIR$/Components/WebGlHeader.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/App.jsx" afterPath="$PROJECT_DIR$/client/App.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/about.css" afterPath="$PROJECT_DIR$/client/stylesheets/about.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/homepage-mediaqueries.css" afterPath="$PROJECT_DIR$/client/stylesheets/homepage-mediaqueries.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Footer.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Footer.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Components/Footer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="339">
+              <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -113,7 +107,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage-mediaqueries.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homepage-mediaqueries.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/stylesheets/homepage-mediaqueries.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
@@ -227,10 +221,10 @@
         <option value="$PROJECT_DIR$/client/modal.js" />
         <option value="$PROJECT_DIR$/Components/tos.jsx" />
         <option value="$PROJECT_DIR$/client/App.jsx" />
-        <option value="$PROJECT_DIR$/Components/Footer.jsx" />
         <option value="$PROJECT_DIR$/Components/Tos.jsx" />
         <option value="$PROJECT_DIR$/client/stylesheets/tos.css" />
         <option value="$PROJECT_DIR$/client/stylesheets/homepage-mediaqueries.css" />
+        <option value="$PROJECT_DIR$/Components/Footer.jsx" />
       </list>
     </option>
   </component>
@@ -489,7 +483,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160166000" />
+    <option name="totallyTimeSpent" value="160316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -848,16 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Components/Footer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Components/Blog.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -899,6 +883,16 @@
         <state relative-caret-position="464">
           <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Components/Footer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
