@@ -454,12 +454,13 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 }
 
 .nav-dropdown img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     transform: translateY(14px);
-    border: 5px solid rgb(120,185,84);
+    border: 2px solid rgb(120,185,84);
     border-radius: 100%;
     filter:grayscale(100%);
+
 }
 
 
