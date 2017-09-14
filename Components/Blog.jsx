@@ -132,7 +132,7 @@ export default class Blog extends Component {
                         <h1 className="slide-up">Coming Soon</h1>
                         <p style={{opacity: 0, animationDelay: "0.3s"}} className="slide-up"> Sign up to stay updated</p>
 
-                        <button style={{opacity: 0, animationDelay: "0.6s"}} className="mailchimp slide-up">Sign Up To Our Newsletter</button>
+                        <a target="_blank" href="http://eepurl.com/ccIqGb"> <button style={{opacity: 0, animationDelay: "0.6s"}} className="mailchimp slide-up">Sign Up To Our Newsletter</button> </a>
                     </div>
 
                         

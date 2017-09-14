@@ -13,6 +13,17 @@
     .responsive-nav {
         display: none;
     }
+
+        .tos-container {
+            margin-left: 10px !important;
+            margin-right: 10px !important;
+            width: 100%;
+            margin-top:80px;
+        }
+
+        .tos-container p {
+            width:90% !important;
+        }
         .pin-container {
             margin-left: 0px !important;
             margin-top: 240px;

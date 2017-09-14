@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import { NavLink } from 'react-router-dom'
+
 
 export default class Footer extends Component {
     render(){
@@ -20,13 +22,13 @@ export default class Footer extends Component {
                         <section id="middle">
 
                             <h5 style={{color:"white"}}>Our Site</h5>
-                            <a>Home</a>
-                            <a>Blog</a>
-                            <a>Design</a>
-                            <a>Strategy</a>
-                            <a>Development</a>
-                            <a>Contact Us</a>
-                            <a>Terms Of Service</a>
+                            <a href="/">Home</a>
+                            <NavLink to="/blog">Blog</NavLink>
+                            <NavLink to="/design">Design</NavLink>
+                            <NavLink to="/strategy">Strategy</NavLink>
+                            <NavLink to="/development">Development</NavLink>
+                            <NavLink to="/getstarted">Contact Us</NavLink>
+                            <NavLink to="/tos">Terms Of Service</NavLink>
                         </section>
 
                         <section id="sidebar">

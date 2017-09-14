@@ -12,6 +12,7 @@ import Intro from '../Components/Intro'
 import AdminBlog from '../Components/AdminBlog'
 import About from '../Components/About'
 
+import Tos from '../Components/Tos'
 
 
 import {Route, Router, BrowserRouter, withRouter } from 'react-router-dom'
@@ -26,6 +27,7 @@ export default class App extends Component {
                     <Route exact path='/' component={WebGlHeader} />
                     <Route exact path='/' component={HomePage} />
                     <Route exact path='/about' component={About} />
+                    <Route exact path='/tos' component={Tos} />
 
                     <Route exact path='/blog' component={Blog} />
                     <Route exact path='/getstarted' component={GetStarted} />

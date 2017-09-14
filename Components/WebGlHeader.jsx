@@ -4,7 +4,8 @@ import { NavLink } from 'react-router-dom'
 
 
 export default class WebGlHeader extends Component {
-    render(){
+
+        render(){
         return(
             <div>
                 <Intro/>

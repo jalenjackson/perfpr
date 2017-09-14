@@ -1,0 +1,44 @@
+#tos {
+    font-family: Helvetica, sans-serif;
+}
+
+#tos h1 {
+    text-align: center;
+    font-size:17px;
+    margin-top:50px;
+
+}
+
+.tos-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100%;
+    margin-top:80px;
+}
+
+.tos-container h2 {
+    font-size:20px;
+}
+
+.tos-container h3 {
+    font-size:17px;
+    color: rgb(71,71,71);
+    margin-top:50px;
+}
+
+.tos-container p {
+    font-size:15px;
+    color:rgb(71,71,71);
+    width:500px;
+    line-height: 27px;
+}
+
+.bottom-title {
+    transform:translateY(20px);
+    text-align:center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color:grey;
+
+}
