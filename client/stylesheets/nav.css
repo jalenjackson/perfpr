@@ -536,3 +536,8 @@ a {
 .move-away {
     opacity: 0 !important;
 }
+
+
+.nav-dropdown h2 {
+    font-size: 14px !important;
+}

@@ -10,6 +10,8 @@ export default class Nav extends Component {
             <div style={{zIndex: 99999999}}>
                 <div className="nav-dropdown">
                     <h2 className="slide-away"><a href = "/"> <img src="images/house.png"/> Home   </a> </h2>
+                    <h2 className="slide-away"><NavLink to="/about"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Circle-icons-computer.svg/2000px-Circle-icons-computer.svg.png"/>About</NavLink></h2>
+
                     <h2 className="mobile-services slide-away"> <img src="https://www.shareicon.net/data/512x512/2015/10/07/113661_tools_512x512.png"/>  Services</h2>
                     <h2 className="slide-away"><NavLink to="/blog"> <img src="https://cdn1.iconfinder.com/data/icons/basic-ui-elements-color/700/08_comment-512.png"/>  Blog</NavLink></h2>
                     <h2 className="slide-away"><NavLink to="/getstarted"> <img src="https://lh5.ggpht.com/8h4a-QzLFHu3pxFZ-Np8AyyUCq1G97T1_7F3ScjbBaxb6wGSdoCLHanFtnQa9kbg0d4=w300"/>  Get Started</NavLink></h2>
