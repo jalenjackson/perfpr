@@ -4,6 +4,17 @@ import Intro from "./Intro";
 
 
 export default class HomePage extends Component {
+
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+
+        window.sr = ScrollReveal({reset: true});
+
+        sr.reveal('.section', 300);
+    }
+
+
     render(){
         return(
             <div style={{marginTop: "-30px",background:"white"}} id="home-page">
@@ -11,11 +22,11 @@ export default class HomePage extends Component {
 
                 <div  id="pagewrap">
 
-                    <header style={{transform: "translateY(40px)"}}>
+                    <header className="home-move1" style={{transform: "translateY(40px)"}}>
                         <p className="home-header">Your Team for Brand Success</p>
                     </header>
 
-                    <section id="content">
+                    <section className="section" id="content">
                         <img src="/images/design.png"/>
                         <h5>Design</h5>
                         <p>
@@ -23,14 +34,14 @@ export default class HomePage extends Component {
                         </p>
                     </section>
 
-                    <section id="middle">
+                    <section className="section" id="middle">
                         <img src="/images/strategy.png"/>
 
                         <h5>Strategy</h5>
                         <p>Learn to garner a powerful audience while working with our experts to grow your digital brand. What it means to experience a brand rather than to only sell it. Find the keys to your new kingdom of success.</p>
                     </section>
 
-                    <section id="sidebar">
+                    <section className="section" id="sidebar">
                         <img src="/images/development.png"/>
 
                         <h5>Development</h5>

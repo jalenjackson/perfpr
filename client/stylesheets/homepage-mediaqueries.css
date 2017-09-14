@@ -18,6 +18,29 @@
             margin-top: 240px;
         }
 
+        .what-we-do {
+            margin-left: 50px !important;
+            margin-right: 50px !important;
+            margin-top:80px;
+        }
+        .second-text {
+            display: none;
+        }
+        .panel2 {
+            margin-left: 0px !important;
+        }
+        .smaller2 {
+            margin-left: 20px !important;
+        }
+        .how-does-it-work {
+            margin-left: 50px !important;
+            margin-right: 50px !important;
+        }
+
+        .lower-text h1 {
+            margin-left: 20px !important;
+        }
+
         .design-info h1 , .design-info p{
             margin-left: 30px !important;
         }
