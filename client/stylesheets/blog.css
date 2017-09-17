@@ -14,3 +14,135 @@
     text-align:center;
     transition: all 300ms ease-in-out;
 }
+
+.editable {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    background:rgb(230,230,230);
+    border-radius: .2em;
+}
+
+.blogs {
+    position: relative;
+
+    width:500px !important;
+    height: 500px !important;
+    background:red;
+    margin-left: 20px;
+    display: inline;
+}
+
+.inside-blogs {
+    width:300px;
+    height: 300px;
+    background:red;
+}
+
+#admin-blog {
+    background: rgb(245,245,245);
+    width:100%;
+    height: auto;
+}
+
+.admin-panels {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align:center;
+}
+
+.admin-blog-panels {
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.admin-h1 {
+    text-align:center;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    margin-top:100px;
+}
+
+.center-inputs {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width:100%;
+}
+
+.center-inputs input {
+    border:none;
+    width:250px;
+    height:50px;
+    margin-left:15px;
+    margin-top:120px;
+}
+
+.admin-tutorial {
+    font-size:14px;
+    font-family:Helvetica, sans-serif;
+    margin-left:100px;
+    transform: translateY(70px);
+}
+
+.login-link-and-dropdown-list {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.submit-btn {
+    margin: 0 auto;
+    display: block;
+    margin-top:100px;
+    cursor: pointer;
+    background:rgb(31,31,31);
+    width:50%;
+    color:white;
+    height: 50px;
+    border:none;
+    font-size:20px;
+    border-radius:.2em;
+    font-family: Helvetica, sans-serif;
+}
+
+.admin-message {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    transform: translateY(60px);
+    font-weight: 200;
+}
+
+.panel-text p {
+    font-weight: 100;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    transform: translateY(50px);
+    color:grey;
+}
+
+.delete-btn {
+    width:130px;
+    height:20px;
+    background:rgb(31,31,31);
+    border-radius: .2em;
+    border:none;
+    color:rgb(120,185,84);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    text-transform: uppercase;
+    font-size:14px;
+    cursor: pointer;
+    text-align:center;
+    transition: all 300ms ease-in-out;
+}
+
+.panel {
+    cursor: pointer;
+}
+
+#signup-link {
+    display: none !important;
+}

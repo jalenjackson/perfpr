@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
-import Nav from "../Components/Nav";
-import WebGlHeader from "../Components/WebGlHeader";
+import Nav from "./Components/Nav";
+import WebGlHeader from "./Components/WebGlHeader";
 import App from "./App";
 
 PerfectPresence = new Mongo.Collection("perfectpresence");

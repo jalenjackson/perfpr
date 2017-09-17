@@ -166,8 +166,7 @@ Meteor.startup(function() {
     };
 
 
-
-
     $( '.h1-intro' ).letterDrop();
+
 
 });
