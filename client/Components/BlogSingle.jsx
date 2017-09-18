@@ -37,7 +37,7 @@ export default class BlogSingle extends Component {
         $(".fa-arrow-left").css({opacity: "1"});
         $(".blog-form").addClass("transform-down");
         $(".admin-h1").addClass("transform-down");
-        $(".footer-div").fadeOut("slow");
+        $(".footer-div").css({display: "none"});
 
 
         setTimeout(function(){

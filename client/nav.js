@@ -172,7 +172,8 @@ Meteor.startup(function() {
 
         setTimeout(function(){
             $(".admin-blog-click-event").removeClass("transform-down");
-            $(".footer-div").fadeIn("slow");
+            $(".footer-div").css({display: "block"});
+
 
         },1000);
 

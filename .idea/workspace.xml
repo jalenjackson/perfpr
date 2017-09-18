@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49ad2a8c-62bd-4979-a631-6e24b8aca273" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Components/BlogSingle.jsx" afterPath="$PROJECT_DIR$/client/Components/BlogSingle.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/nav.js" afterPath="$PROJECT_DIR$/client/nav.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/blog.css" afterPath="$PROJECT_DIR$/client/stylesheets/blog.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,8 +22,8 @@
       <file leaf-file-name="blog.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/stylesheets/blog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+            <state relative-caret-position="355">
+              <caret line="178" column="37" lean-forward="false" selection-start-line="178" selection-start-column="37" selection-end-line="178" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -40,7 +42,7 @@
       <file leaf-file-name="Blog.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/Components/Blog.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
+            <state relative-caret-position="-307">
               <caret line="53" column="98" lean-forward="false" selection-start-line="53" selection-start-column="98" selection-end-line="53" selection-end-column="98" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -79,16 +81,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="About.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/Components/About.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="82" column="26" lean-forward="false" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="publish.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/publish.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,8 +94,18 @@
       <file leaf-file-name="BlogSingle.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/Components/BlogSingle.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="48" column="42" lean-forward="false" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+            <state relative-caret-position="368">
+              <caret line="87" column="47" lean-forward="true" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/nav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="174" column="49" lean-forward="false" selection-start-line="174" selection-start-column="49" selection-end-line="174" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -123,7 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>box</find>
       <find>.slide</find>
       <find>design-header</find>
       <find>link</find>
@@ -139,7 +140,6 @@
       <find>video-overl</find>
       <find>.nav-dropdown h2</find>
       <find>what-we</find>
-      <find>img</find>
       <find>edita</find>
       <find>admin-pan</find>
       <find>fa-arr</find>
@@ -153,6 +153,8 @@
       <find>background:white</find>
       <find>admin-blog-pa</find>
       <find>admin</find>
+      <find>sign</find>
+      <find>img</find>
     </findStrings>
     <replaceStrings>
       <replace>className</replace>
@@ -211,9 +213,9 @@
         <option value="$PROJECT_DIR$/client/Components/AdminBlog.jsx" />
         <option value="$PROJECT_DIR$/client/App.jsx" />
         <option value="$PROJECT_DIR$/client/Components/BlogForm.jsx" />
-        <option value="$PROJECT_DIR$/client/nav.js" />
-        <option value="$PROJECT_DIR$/client/Components/BlogSingle.jsx" />
         <option value="$PROJECT_DIR$/client/Components/Blog.jsx" />
+        <option value="$PROJECT_DIR$/client/Components/BlogSingle.jsx" />
+        <option value="$PROJECT_DIR$/client/nav.js" />
         <option value="$PROJECT_DIR$/client/stylesheets/blog.css" />
       </list>
     </option>
@@ -478,12 +480,12 @@
       <workItem from="1505594275233" duration="9900000" />
       <workItem from="1505631316877" duration="112000" />
       <workItem from="1505634600894" duration="273000" />
-      <workItem from="1505638545310" duration="30298000" />
+      <workItem from="1505638545310" duration="30704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214760000" />
+    <option name="totallyTimeSpent" value="215166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -801,14 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="174" column="35" lean-forward="false" selection-start-line="174" selection-start-column="35" selection-end-line="174" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/Components/About.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -849,24 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/Components/BlogSingle.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="48" column="42" lean-forward="false" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Components/Blog.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="53" column="98" lean-forward="false" selection-start-line="53" selection-start-column="98" selection-end-line="53" selection-end-column="98" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/methods.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -883,10 +859,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="174" column="49" lean-forward="false" selection-start-line="174" selection-start-column="49" selection-end-line="174" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Components/Blog.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-307">
+          <caret line="53" column="98" lean-forward="false" selection-start-line="53" selection-start-column="98" selection-end-line="53" selection-end-column="98" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Components/BlogSingle.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="87" column="47" lean-forward="true" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/stylesheets/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        <state relative-caret-position="355">
+          <caret line="178" column="37" lean-forward="false" selection-start-line="178" selection-start-column="37" selection-end-line="178" selection-end-column="37" />
           <folding />
         </state>
       </provider>
