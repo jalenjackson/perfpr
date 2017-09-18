@@ -18,18 +18,48 @@ export default class BlogSingle extends Component {
 
     showBlog(){
 
+
+
         var $log = $( "#show-the-blog" ),
-            str = this.props.blogInfo.body,
-            html = $.parseHTML( str ),
-            nodeNames = [];
+            $title = $("#show-title"),
+            $image = $("#blog-img"),
+            title = this.props.blogInfo.title,
+            body = this.props.blogInfo.body,
+            image = this.props.blogInfo.image,
+            bodyHTML = $.parseHTML( body );
 
-        var text = $("#blog-data").html();
-        console.log(text);
+        $title.append(title);
+        $log.append( bodyHTML );
+        $image.attr("src", image);
 
-        $log.append( html );
+        $(".admin-blog-click-event").addClass("transform-down");
+        $(".show-blog-container").addClass("");
+        $(".fa-arrow-left").css({opacity: "1"});
+        $(".blog-form").addClass("transform-down");
+        $(".admin-h1").addClass("transform-down");
+        $(".footer-div").fadeOut("slow");
 
-        $(".admin-blog-click-event").hide();
+
+        setTimeout(function(){
+            $('html, body').animate({scrollTop: $("nav").offset().top}, 300);
+        },550);
+        setTimeout(function(){
+            $(".show-blog-container").css({
+                opacity: "1",
+                transform: "translateY(-15px)",
+                pointerEvents: "auto"
+            });
+        },850);
+
+        if(image !== "") {
+            $(".blog-img-container").css({
+                background: "url(" + image + ") center center no-repeat",
+                backgroundSize: "cover"
+            });
+        }
+        $(".blog-img-container").fadeIn("slow");
     }
+
 
 
 
@@ -38,15 +68,14 @@ export default class BlogSingle extends Component {
 
         if(!Meteor.userId()){
             return (
-                <div onClick={()=>{this.showBlog()}} className="panel admin-blog-panels admin-blog-click-event ">
-                    <div   className="panel-text">
-                        <img style={{marginTop: "-70px"}} src={this.props.blogInfo.image}/>
-                        <h1>{this.props.blogInfo.title}</h1>
-                        <p>By: {this.props.blogInfo.name}</p>
-                    </div>
+                <div  className="panel admin-blog-panels admin-blog-click-event ">
+                    <div className="panel-text admin-blog-panel-text">
+                        <img style={{marginTop: "-70px", cursor: "pointer"}} onClick={()=>{this.showBlog()}} src={this.props.blogInfo.image}/>
+                        <h1 style={{cursor:"pointer"}} onClick={()=>{this.showBlog()}}>{this.props.blogInfo.title}</h1>
+                        <p className="admin-p">By: {this.props.blogInfo.name}</p>
 
-                    <div className="blog-body">
-                        <p className="blog-data">{this.props.blogInfo.body}</p>
+
+
                     </div>
                 </div>
 
@@ -55,15 +84,16 @@ export default class BlogSingle extends Component {
         }
 
         return(
-                <div className="panel admin-blog-panels ">
-                    <div className="panel-text">
-                        <img style={{marginTop: "-70px"}} src={this.props.blogInfo.image}/>
-                        <h1>{this.props.blogInfo.title}</h1>
-                        <p>By: {this.props.blogInfo.name}</p>
-                        <input type="checkbox" readOnly={true} checked={this.props.blogInfo.complete} onClick={this.toggleChecked.bind(this)} />
-                        <p style={{transform: "translateY(70px)"}}>Completed: {this.props.blogInfo.complete.toString()}</p>
+                <div  className="panel admin-blog-panels admin-blog-click-event ">
+                    <div className="panel-text admin-blog-panel-text">
+                        <img style={{marginTop: "-70px", cursor: "pointer"}} onClick={()=>{this.showBlog()}} src={this.props.blogInfo.image}/>
+                        <h1 style={{cursor:"pointer"}} onClick={()=>{this.showBlog()}}>{this.props.blogInfo.title}</h1>
+                        <p className="admin-p">By: {this.props.blogInfo.name}</p>
+                        <p style={{transform: "translateY(70px)"}}><input type="checkbox" readOnly={true} checked={this.props.blogInfo.complete} onClick={this.toggleChecked.bind(this)} /> Completed: {this.props.blogInfo.complete.toString()}</p>
 
                         <button className="delete-btn" onClick={this.deleteBlog.bind(this)}>Delete</button>
+
+
                     </div>
                 </div>
         )

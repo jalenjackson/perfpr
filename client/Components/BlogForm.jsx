@@ -87,12 +87,12 @@ export default class BlogForm extends Component {
                     <div className="center-inputs">
                         <input className="admin-title" type="text" ref="title" placeholder="Title Of Blog"/>
                         <input type="text" ref="name" placeholder="Your Name"/>
-                        <input type="text" ref="image" placeholder="Base 64 Image Data"/>
+                        <input type="text" ref="image" placeholder="Base 64 Image Data 1000x500"/>
                     </div>
 
                     <h1 className="admin-tutorial">Start writing your blog below. Highlight the text in order to style. <i className="fa fa-arrow-down"/></h1>
                     <textarea className="editable">
-                        Type Your Blog Here...
+                        Type Your Blog Here... Or copy an existing blog to maintain styles.
                     </textarea>
                     <input className="submit-btn" type="submit" value="Submit Blog"/>
                 </form>

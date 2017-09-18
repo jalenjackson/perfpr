@@ -9,7 +9,6 @@ import Design from './Components/Design'
 import Development from './Components/Development'
 import Strategy from './Components/Strategy'
 import Intro from './Components/Intro'
-import AdminBlog from './Components/AdminBlog'
 import About from './Components/About'
 import Tos from './Components/Tos';
 import Signin from './Components/Signin'
@@ -37,7 +36,6 @@ export default class App extends Component {
                     <Route exact path='/strategy' component={Strategy} />
                     <Route exact path='/development' component={Development} />
                     <Route exact path='/design' component={Design} />
-                    <Route exact path='/adminblog' component={AdminBlog} />
 
                 </div>
 

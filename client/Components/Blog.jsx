@@ -1,11 +1,16 @@
-import React, {Component} from 'react';
-import Footer from "./Footer";
-import BlogJs from './BlogJs'
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import TrackerReact from 'meteor/ultimatejs:tracker-react';
+import BlogForm from "./BlogForm";
 import BlogSingle from "./BlogSingle";
 
+import BlogJs from './BlogJs';
+import Footer from "./Footer";
+
+Blog = BlogJs.blog;
 
 
-export default class Blog extends Component {
+export default class AccountsUIWrapper extends TrackerReact(Component) {
 
     constructor(){
         super();
@@ -15,33 +20,89 @@ export default class Blog extends Component {
                 blog: Meteor.subscribe("allBlogs")
             }
         };
-
     }
 
-
-
-
-    componentWillUnMount() {
+    componentWillUnMount(){
         this.state.subscription.blog.stop();
     }
 
-    componentDidMount(){
-
+    blog(){
+     return Blog.find().fetch();
     }
 
 
-
+    toggleChecked(){
+        console.log(this.blog().__id);
+        Meteor.call("toggleBlog", this.blog().__id, this.blog().complete);
+    }
 
     render(){
-        Blog = BlogJs.blog;
 
-        console.log(Blog.find({}).fetch());
-        return(
-            <div id="blog">
-                <div className="admin-panels">
+        let blog = this.blog();
+        var user = Meteor.user();
+        var email = user && user.emails && user.emails[0].address;
+        console.log(email);
 
+
+
+        if(Meteor.userId()) {
+return (
+            <div   id="admin-blog">
+
+                <BlogForm/>
+
+                <h1  className="admin-h1"><span style={{borderBottom: "3px solid black"}}>Current Blogs</span></h1>
+                <div  className="admin-panels">
+                    {this.blog().map(function(blog){
+                        return <BlogSingle key={blog.__id} blogInfo={blog}/>
+                    })}
                 </div>
+                <i className="fa fa-arrow-left"/>
+
+                <div className="show-blog-container">
+                    <div style={{background: "url(https://www2.shutterstock.com/blog/wp-content/uploads/sites/5/2016/04/Instagram_Vid_Ad_shutterstock_205352527.jpg) center center no-repeat", backgroundSize: "cover"}} className="blog-img-container">
+
+                    </div>
+                    <h1 id="show-title"></h1>
+                    <div id="show-the-blog">
+                    </div>
+                </div>
+
+                <Footer/>
+
             </div>
+)
+        }
+
+
+        return (
+
+            <div   id="admin-blog">
+
+
+                    <h1   className="admin-h1 admin-h12">Perfect Presence <span style={{color:"grey"}}>Blog</span></h1>
+
+                <div  className="admin-panels ">
+                    {this.blog().map(function(blog){
+                        return <BlogSingle key={blog.__id} blogInfo={blog}/>
+                    })}
+                </div>
+                <i className="fa fa-arrow-left"/>
+
+                <div className="show-blog-container">
+                    <div style={{background: "url(https://www2.shutterstock.com/blog/wp-content/uploads/sites/5/2016/04/Instagram_Vid_Ad_shutterstock_205352527.jpg) center center no-repeat", backgroundSize: "cover"}} className="blog-img-container">
+
+                    </div>
+                    <h1 id="show-title"></h1>
+                    <div id="show-the-blog">
+                    </div>
+                </div>
+
+                <Footer/>
+
+            </div>
+
         )
     }
 }
+
