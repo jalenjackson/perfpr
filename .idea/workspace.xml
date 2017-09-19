@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49ad2a8c-62bd-4979-a631-6e24b8aca273" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Components/About.jsx" afterPath="$PROJECT_DIR$/client/Components/About.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Components/Blog.jsx" afterPath="$PROJECT_DIR$/client/Components/Blog.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Components/WebGlHeader.jsx" afterPath="$PROJECT_DIR$/client/Components/WebGlHeader.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/webglheader.css" afterPath="$PROJECT_DIR$/client/stylesheets/webglheader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Components/BlogSingle.jsx" afterPath="$PROJECT_DIR$/client/Components/BlogSingle.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BlogSingle.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BlogSingle.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/Components/BlogSingle.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="189">
+              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -92,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webglheader.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webglheader.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/stylesheets/webglheader.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="61">
@@ -126,7 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pin</find>
       <find>header</find>
       <find>video-over</find>
       <find>video</find>
@@ -156,6 +152,7 @@
       <find>fa-arr</find>
       <find>Start</find>
       <find>design-button</find>
+      <find>button</find>
     </findStrings>
     <replaceStrings>
       <replace>className</replace>
@@ -213,11 +210,11 @@
         <option value="$PROJECT_DIR$/client/App.jsx" />
         <option value="$PROJECT_DIR$/client/Components/Nav.jsx" />
         <option value="$PROJECT_DIR$/client/stylesheets/blog.css" />
-        <option value="$PROJECT_DIR$/client/Components/BlogSingle.jsx" />
         <option value="$PROJECT_DIR$/client/Components/About.jsx" />
         <option value="$PROJECT_DIR$/client/Components/WebGlHeader.jsx" />
         <option value="$PROJECT_DIR$/client/Components/Blog.jsx" />
         <option value="$PROJECT_DIR$/client/stylesheets/webglheader.css" />
+        <option value="$PROJECT_DIR$/client/Components/BlogSingle.jsx" />
       </list>
     </option>
   </component>
@@ -481,12 +478,12 @@
       <workItem from="1505594275233" duration="9900000" />
       <workItem from="1505631316877" duration="112000" />
       <workItem from="1505634600894" duration="273000" />
-      <workItem from="1505638545310" duration="41450000" />
+      <workItem from="1505638545310" duration="41617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225912000" />
+    <option name="totallyTimeSpent" value="226079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -784,7 +781,7 @@
         <state relative-caret-position="198">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -825,14 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="243" column="0" lean-forward="false" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Components/BlogSingle.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -899,6 +888,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="147" column="20" lean-forward="false" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Components/BlogSingle.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding />
         </state>
       </provider>

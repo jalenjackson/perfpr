@@ -24,7 +24,7 @@ export default class BlogSingle extends Component {
         }
 
 
-        $(".arrow2").click(function(){
+        $(".arrow-left").click(function(){
             $(".arrow-left").css({
                 opacity: "0",
                 transform: "translateY(30px)"
