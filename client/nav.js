@@ -168,45 +168,6 @@ Meteor.startup(function() {
 
     $( '.h1-intro' ).letterDrop();
 
-    $(".fa-arrow-left").click(function(){
 
-        setTimeout(function(){
-            $(".admin-blog-click-event").removeClass("transform-down");
-            $(".footer-div").css({display: "block"});
-
-
-        },1000);
-
-
-
-        setTimeout(function(){
-            $(".show-blog-container").css({
-                opacity: "0",
-                transform: "translateY(100px)",
-                pointerEvents: "none"
-            });
-        },500);
-
-        $(".fa-arrow-left").css({opacity: "0"});
-        $(".blog-form").removeClass("transform-down");
-        $(".admin-h1").removeClass("transform-down");
-
-        setTimeout(function(){
-            $("#show-title").html("");
-            $("#show-the-blog").html("");
-        },1000);
-
-
-        setTimeout(function(){
-            $('html, body').animate({scrollTop: $("nav").offset().top}, 300);
-        },0);
-
-        setTimeout(function(){
-            $(".blog-img-container").css({
-                background: "url(https://www2.shutterstock.com/blog/wp-content/uploads/sites/5/2016/04/Instagram_Vid_Ad_shutterstock_205352527.jpg) center center no-repeat",
-                backgroundSize: "cover"
-            });
-        },2000);
-    });
 
 });

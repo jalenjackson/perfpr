@@ -8,6 +8,72 @@ export default class BlogSingle extends Component {
 
     }
 
+    componentDidMount(){
+        $(".img-loader").hide();
+
+        var isAtLocation = false;
+        var title = this.props.blogInfo.title.replace(/ /g,'');
+
+        console.log(title);
+        if(window.location.pathname === "/blog/" + title){
+            isAtLocation = true;
+        }
+
+        if(isAtLocation){
+            this.showBlog();
+        }
+
+
+        $(".arrow2").click(function(){
+            $(".arrow-left").css({
+                opacity: "0",
+                transform: "translateY(30px)"
+            });
+            history.pushState(null, '', '/blog');
+
+            $('body').stop(true, false).animate({scrollTop: $("nav").offset().top}, 500);
+
+
+            setTimeout(function(){
+                $(".admin-blog-click-event").removeClass("transform-down");
+                $(".footer-div").css({display: "none"});
+
+
+            },1000);
+
+
+
+            setTimeout(function(){
+                $(".show-blog-container").css({
+                    opacity: "0",
+                    transform: "translateY(100px)",
+                    pointerEvents: "none"
+                });
+
+            },500);
+
+            $(".blog-form").removeClass("transform-down");
+            $(".admin-h1").removeClass("transform-down");
+
+            setTimeout(function(){
+                $("#show-title").html("");
+                $("#show-the-blog").html("");
+            },1000);
+
+
+
+            setTimeout(function(){
+                $(".blog-img-container").css({
+                    background: "url(https://www2.shutterstock.com/blog/wp-content/uploads/sites/5/2016/04/Instagram_Vid_Ad_shutterstock_205352527.jpg) center center no-repeat",
+                    backgroundSize: "cover"
+                });
+            },2000);
+        });
+
+
+
+    }
+
     deleteBlog(){
 
         if(confirm("Are you sure you want to delete this blog??") === true)
@@ -16,9 +82,12 @@ export default class BlogSingle extends Component {
     }
 
 
+
+
     showBlog(){
 
 
+        history.pushState(null, '', '/blog/' + this.props.blogInfo.title.replace(/ /g,''));
 
         var $log = $( "#show-the-blog" ),
             $title = $("#show-title"),
@@ -34,14 +103,21 @@ export default class BlogSingle extends Component {
 
         $(".admin-blog-click-event").addClass("transform-down");
         $(".show-blog-container").addClass("");
-        $(".fa-arrow-left").css({opacity: "1"});
+
+        setTimeout(function(){
+            $(".arrow-left").css({
+                opacity: "1",
+                transform: "translateY(0px)"
+            });
+        },1000);
+
         $(".blog-form").addClass("transform-down");
         $(".admin-h1").addClass("transform-down");
         $(".footer-div").css({display: "none"});
 
 
         setTimeout(function(){
-            $('html, body').animate({scrollTop: $("nav").offset().top}, 300);
+            $('html, body').stop(true, false).animate({scrollTop: $("nav").offset().top}, 300);
         },550);
         setTimeout(function(){
             $(".show-blog-container").css({

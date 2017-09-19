@@ -19,7 +19,10 @@ import {Route, Router, BrowserRouter, withRouter } from 'react-router-dom'
 export default class App extends Component {
     render(){
         return(
-            <BrowserRouter>
+
+
+
+        <BrowserRouter>
 
                 <div>
                     <Nav/>
@@ -28,7 +31,9 @@ export default class App extends Component {
                     <Route exact path='/about' component={About} />
                     <Route exact path='/tos' component={Tos} />
 
+                    <Route exact path='/blog/:id' component={Blog} />
                     <Route exact path='/blog' component={Blog} />
+
                     <Route exact path='/getstarted' component={GetStarted} />
                     <Route exact path='/services' component={Services} />
                     <Route exact path='/perfpr-user-sign-in' component={Signin} />
