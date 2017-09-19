@@ -23,6 +23,7 @@ export default class AccountsUIWrapper extends TrackerReact(Component) {
     }
 
     componentDidMount(){
+        window.scrollTo(0,0);
     }
 
     componentWillUnMount(){

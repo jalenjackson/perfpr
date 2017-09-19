@@ -242,6 +242,8 @@ export default class WebGlHeader extends Component {
                 requestAnimationFrame(tick);
             }
 
+
+
             function update() {
                 mControls.update();
 
@@ -640,7 +642,19 @@ export default class WebGlHeader extends Component {
     }
 
     componentWillUnmount() {
-        document.getElementById("webgl").style.display = "none";
+        window.cancelRequestAnimFrame = ( function() {
+            return window.cancelAnimationFrame          ||
+                window.webkitCancelRequestAnimationFrame    ||
+                window.mozCancelRequestAnimationFrame       ||
+                window.oCancelRequestAnimationFrame     ||
+                window.msCancelRequestAnimationFrame        ||
+                clearTimeout
+        } )();
+
+        for (var i = 1; i < 99999; i++) {
+            window.clearInterval(i);
+            window.cancelRequestAnimFrame(i);
+        }
     }
 
         render(){

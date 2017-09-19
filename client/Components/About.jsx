@@ -9,6 +9,7 @@ export default class About extends Component {
     componentDidMount(){
         window.scrollTo(0,0);
 
+
         window.sr = ScrollReveal({ reset: true });
 
         sr.reveal('.what-we-do', {
