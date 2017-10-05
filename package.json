@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/perfpr/ppcw-meteor-website.git"
   },
+  
   "author": "",
   "license": "ISC",
   "homepage": "https://bitbucket.org/perfpr/ppcw-meteor-website#readme",
